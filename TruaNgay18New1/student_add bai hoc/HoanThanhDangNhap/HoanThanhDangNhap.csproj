@@ -165,6 +165,12 @@
     <Compile Include="daynhiet6.Designer.cs">
       <DependentUpon>daynhiet6.cs</DependentUpon>
     </Compile>
+    <Compile Include="daynhiet7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="daynhiet7.Designer.cs">
+      <DependentUpon>daynhiet7.cs</DependentUpon>
+    </Compile>
     <Compile Include="formChonBaiHoc.cs">
       <SubType>Form</SubType>
     </Compile>
