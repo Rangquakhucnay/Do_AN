@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.panelWiring = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.buttonRight = new System.Windows.Forms.Button();
             this.buttonLeft = new System.Windows.Forms.Button();
@@ -52,8 +50,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.panelWiring.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panelWiring = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -63,27 +61,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panelWiring.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // panelWiring
-            // 
-            this.panelWiring.Controls.Add(this.pictureBox2);
-            this.panelWiring.Location = new System.Drawing.Point(9, 10);
-            this.panelWiring.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.panelWiring.Name = "panelWiring";
-            this.panelWiring.Size = new System.Drawing.Size(1768, 683);
-            this.panelWiring.TabIndex = 15;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Location = new System.Drawing.Point(336, 23);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1115, 655);
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // flowLayoutPanel1
             // 
@@ -132,7 +112,7 @@
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(108, 854);
             this.flowLayoutPanel2.TabIndex = 16;
-            this.flowLayoutPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel2_Paint);
+           
             // 
             // button3
             // 
@@ -196,7 +176,7 @@
             this.chlstDapAn.Size = new System.Drawing.Size(1496, 167);
             this.chlstDapAn.TabIndex = 1;
             this.chlstDapAn.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.chlstDapAn_ItemCheck);
-            this.chlstDapAn.SelectedIndexChanged += new System.EventHandler(this.chlstDapAn_SelectedIndexChanged);
+  
             // 
             // panel2
             // 
@@ -218,7 +198,7 @@
             this.picChe.Size = new System.Drawing.Size(1497, 318);
             this.picChe.TabIndex = 17;
             this.picChe.TabStop = false;
-            this.picChe.Click += new System.EventHandler(this.picChe_Click);
+           
             // 
             // txtQues
             // 
@@ -273,8 +253,7 @@
             this.picPanelVideo.Size = new System.Drawing.Size(1706, 668);
             this.picPanelVideo.TabIndex = 0;
             this.picPanelVideo.TabStop = false;
-            this.picPanelVideo.Click += new System.EventHandler(this.picPanelVideo_Click);
-            // 
+
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -314,6 +293,26 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox2.Location = new System.Drawing.Point(336, 23);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(1115, 655);
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+          
+            // 
+            // panelWiring
+            // 
+            this.panelWiring.Controls.Add(this.pictureBox2);
+            this.panelWiring.Location = new System.Drawing.Point(9, 10);
+            this.panelWiring.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panelWiring.Name = "panelWiring";
+            this.panelWiring.Size = new System.Drawing.Size(1768, 683);
+            this.panelWiring.TabIndex = 15;
+            // 
             // formHienThiBaiHoc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -336,8 +335,6 @@
             this.Text = "Bài học";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.formHienThiBaiHoc_FormClosed);
             this.Load += new System.EventHandler(this.formHienThiBaiHoc_Load);
-            this.panelWiring.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
@@ -348,6 +345,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panelWiring.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -355,9 +354,7 @@
 
         #endregion
         private System.Windows.Forms.Button buttonLeft;
-        private System.Windows.Forms.Panel panelWiring;
         private System.Windows.Forms.Button buttonRight;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private System.IO.Ports.SerialPort serialPort1;
@@ -377,5 +374,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Panel panelWiring;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

@@ -86,13 +86,9 @@ namespace HoanThanhDangNhap
             Application.Exit();
         }
 
-        private void phide_Click(object sender, EventArgs e)
-        {
-        }
+       
 
-        private void peye_Click(object sender, EventArgs e)
-        {
-        }
+      
 
         private void txtTenDangNhap_TextChanged(object sender, EventArgs e)
         {
@@ -100,9 +96,6 @@ namespace HoanThanhDangNhap
             Properties.Settings.Default.Save();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

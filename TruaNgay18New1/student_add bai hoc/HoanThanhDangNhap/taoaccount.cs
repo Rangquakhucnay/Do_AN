@@ -165,6 +165,7 @@ namespace HoanThanhDangNhap
                         command.Parameters.AddWithValue("@matkhau", txtMatkhaumoi.Text);
                         command.Parameters.AddWithValue("@malop", txtLopmoi.Text);
                         command.Parameters.AddWithValue("@quyen", 0);
+
                         command.Parameters.AddWithValue("@nqtc1", 17);
                         command.Parameters.AddWithValue("@nqtc2", 13);
                         command.Parameters.AddWithValue("@nqtc3", 4);

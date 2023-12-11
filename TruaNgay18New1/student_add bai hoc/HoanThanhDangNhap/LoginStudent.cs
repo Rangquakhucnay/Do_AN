@@ -80,7 +80,7 @@ namespace HoanThanhDangNhap
 
        
 
-        private void label3_Click(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e) // form thuc hanh 1
         {
             if (btnNutKetNoi.Text == "Kết nối")
             {
@@ -105,7 +105,7 @@ namespace HoanThanhDangNhap
             f.Show();
         }
 
-        private void label2_Click(object sender, EventArgs e)       //label dua den bai hoc
+        private void label2_Click(object sender, EventArgs e)       //form chon chuong 1
         {
             if (btnNutKetNoi.Text == "Kết nối")
             {
@@ -146,7 +146,7 @@ namespace HoanThanhDangNhap
             }
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void label4_Click(object sender, EventArgs e) // form kiem tra 1
         {
             if (btnNutKetNoi.Text == "Kết nối")
             {
@@ -166,7 +166,7 @@ namespace HoanThanhDangNhap
             f.Show();
         }
 
-        private void panelBaiHoc_Click(object sender, EventArgs e)
+        private void panelBaiHoc_Click(object sender, EventArgs e)// form chon chuong 2
         {
             if (btnNutKetNoi.Text == "Kết nối")
             {
@@ -179,7 +179,7 @@ namespace HoanThanhDangNhap
             }
         }
 
-        private void panelThucHanh_Click(object sender, EventArgs e)
+        private void panelThucHanh_Click(object sender, EventArgs e) // form thuc hanh 2
         {
             if (btnNutKetNoi.Text == "Kết nối")
             {
@@ -192,7 +192,7 @@ namespace HoanThanhDangNhap
             }
         }
 
-        private void panelKiemTra_Click(object sender, EventArgs e)
+        private void panelKiemTra_Click(object sender, EventArgs e) // form kiem tra 2
         {
             if (btnNutKetNoi.Text == "Kết nối")
             {
@@ -205,35 +205,9 @@ namespace HoanThanhDangNhap
             }
         }
 
-        
 
-        private void Thuchanh2_Click(object sender, EventArgs e)
-        {
-            if (btnNutKetNoi.Text == "Kết nối")
-            {
-                MessageBox.Show("Vui lòng kết nối với mô hình trước khi sử dụng");
-            }
-            else
-            {
-                formkt  k = new formkt();
-                k.ShowDialog();
-            }
-        }
 
-        private void panelBaiHoc2_Click(object sender, EventArgs e)
-        {
-            if (btnNutKetNoi.Text == "Kết nối")
-            {
-                MessageBox.Show("Vui lòng kết nối với mô hình trước khi sử dụng");
-            }
-            else
-            {
-                formkt k1 = new formkt();  
-                k1.ShowDialog();
-            }
-        }
-
-        private void panelThuchanh2_Paint(object sender, PaintEventArgs e)
+        private void Thuchanh2_Click(object sender, EventArgs e)// form cam  bien 1
         {
             if (btnNutKetNoi.Text == "Kết nối")
             {
@@ -245,5 +219,20 @@ namespace HoanThanhDangNhap
                 k.ShowDialog();
             }
         }
+        private void panelThuchanh2_Click(object sender, EventArgs e) // form carm bien 2
+        {
+
+            if (btnNutKetNoi.Text == "Kết nối")
+            {
+                MessageBox.Show("Vui lòng kết nối với mô hình trước khi sử dụng");
+            }
+            else
+            {
+                formkt k = new formkt();
+                k.ShowDialog();
+            }
+        }
+
+        
     }
 }

@@ -1421,7 +1421,6 @@ D:\Đồ Án\DO AN\Do_AN\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\ob
 D:\Đồ Án\DO AN\Do_AN\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.formHienThiBaiHoc2.resources
 D:\Đồ Án\DO AN\Do_AN\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.formkt.resources
 D:\Đồ Án\DO AN\Do_AN\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.formThucHanh.resources
-D:\Đồ Án\DO AN\Do_AN\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.formThuchanh2.resources
 D:\Đồ Án\DO AN\Do_AN\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.GVTaoMaLoi.resources
 D:\Đồ Án\DO AN\Do_AN\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.Form1.resources
 D:\Đồ Án\DO AN\Do_AN\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.LoginStudent.resources

@@ -47,10 +47,10 @@
             // txtTenDangNhap
             // 
             this.txtTenDangNhap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.txtTenDangNhap.Font = new System.Drawing.Font("Quicksand", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenDangNhap.Location = new System.Drawing.Point(47, 6);
             this.txtTenDangNhap.Name = "txtTenDangNhap";
-            this.txtTenDangNhap.Size = new System.Drawing.Size(344, 45);
+            this.txtTenDangNhap.Size = new System.Drawing.Size(344, 41);
             this.txtTenDangNhap.TabIndex = 0;
             this.txtTenDangNhap.TextChanged += new System.EventHandler(this.txtTenDangNhap_TextChanged);
             // 
@@ -58,30 +58,29 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Quicksand", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(82)))), ((int)(((byte)(110)))));
             this.label2.Location = new System.Drawing.Point(851, 247);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(389, 89);
+            this.label2.Size = new System.Drawing.Size(383, 69);
             this.label2.TabIndex = 4;
             this.label2.Text = "BAE Training";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtMatKhau
             // 
             this.txtMatKhau.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(242)))), ((int)(((byte)(242)))));
-            this.txtMatKhau.Font = new System.Drawing.Font("Quicksand", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMatKhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMatKhau.Location = new System.Drawing.Point(47, 4);
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.PasswordChar = '*';
-            this.txtMatKhau.Size = new System.Drawing.Size(344, 45);
+            this.txtMatKhau.Size = new System.Drawing.Size(344, 41);
             this.txtMatKhau.TabIndex = 5;
             // 
             // NutDangNhap
             // 
             this.NutDangNhap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(172)))), ((int)(((byte)(183)))));
-            this.NutDangNhap.Font = new System.Drawing.Font("Quicksand", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NutDangNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NutDangNhap.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.NutDangNhap.Location = new System.Drawing.Point(854, 586);
             this.NutDangNhap.Name = "NutDangNhap";
@@ -101,6 +100,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
+       
             // 
             // panel1
             // 

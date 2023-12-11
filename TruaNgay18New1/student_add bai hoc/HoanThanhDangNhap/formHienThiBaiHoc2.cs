@@ -36,7 +36,6 @@ namespace HoanThanhDangNhap
         private int maxImageIndex;
         private int buttonCount;
 
-     
         // cac bien hien thi panel video
 
         private int currentImageIndexVideo = 1;
@@ -53,9 +52,10 @@ namespace HoanThanhDangNhap
         }
         int chuong = int.Parse(formDiToiBaiHoc2.sttChuongBaiHoc2);
         int nActi = int.Parse(formDiToiBaiHoc2.SoActi);
-        int nQT = formDiToiBaiHoc2.TiendoActi;
+        int nQT = formDiToiBaiHoc.TiendoActi;
 
-        private void formHienThiBaiHoc2_Load(object sender, EventArgs e)
+        /////////////////////////////////////////////////////////////////////////////////////////////
+         private void formHienThiBaiHoc2_Load(object sender, EventArgs e)
         {
             serialPort1.PortName = LoginStudent.tenCOM;
             serialPort1.BaudRate = LoginStudent.giatribaudrate;
@@ -80,41 +80,13 @@ namespace HoanThanhDangNhap
                 panelWiring.Visible = false;
                 panelWiring.SendToBack();
                 HienThiBaiHoc(nActi);
-            }
+}
 
-            TaoVaXuLyNut(nonNullRowCount - 1); // hiển thị số acti
+                TaoVaXuLyNut(nonNullRowCount - 1); // hiển thị số acti
 
-            HienThiBaiDaHoc(nQT);               // hiển thị các bài đã học bằng cách tô đậm
+                HienThiBaiDaHoc(nQT);               // hiển thị các bài đã học bằng cách tô đậm
         }
-
-
-        //private void HienThiWiring() 2
-        //private void LaySoHinh() 1
-        //private void LoadImage(int index) 4
-        //private void LoadButtonsWiring(int currentIndex, int count) 4
-        //private void LoadButtonsVideo(int currentIndexVideo, int countVideo) 3
-        //private void TaoVaXuLyNut(int dodai) 1
-        //private void HienThiBaiDaHoc(int v) 1
-        //private void HienthiKhinhanOK(int v) 3
-        //private void Nut_Click(object sender, EventArgs e) 1
-        //private void HienThiBaiHoc(int v) 6
-        //private void HienThiVideo() 1
-        //private void LoadImageVideo(int index) 4
-        //private void formHienThiBaiHoc_FormClosed(object sender, FormClosedEventArgs e) 1
-        //private void button3_Click(object sender, EventArgs e) 1
-        //private void chlstDapAn_ItemCheck(object sender, ItemCheckEventArgs e) 1
-        //private void PrevPicVideo_Click(object sender, EventArgs e)  1
-        //private void NextPicVideo_Click(object sender, EventArgs e) 1
-        // private void guiMaFault(string ft) 9
-        //private void btnOK_Click(object sender, EventArgs e) 1
-        // private void CheckDapAn() 1
-        //private void LuuTiendo() 1
-        //private void buttonLeft_Click(object sender, EventArgs e)  // nút tiến wiring 1 
-        // private void buttonRight_Click(object sender, EventArgs e)  // nút lùi wiring 1
-
-
-
-
+        
         private void HienThiWiring()
         {
             panelWiring.Visible = true;
@@ -489,53 +461,17 @@ namespace HoanThanhDangNhap
             picPanelVideo.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
-
-        
-
-
-
-        private void PrevPicVideo_Click(object sender, EventArgs e)
+        private void formHienThiBaiHoc2_FormClosed(object sender, FormClosedEventArgs e)
         {
-            if (currentImageIndexVideo > 1)
-            {
-                currentImageIndexVideo--;
-                LoadImageVideo(currentImageIndexVideo);
-                LoadButtonsVideo(currentImageIndexVideo, buttonCountVideo);
-                NextPicVideo.Enabled = true;
-            }
-            if (currentImageIndexVideo == 1)
-            {
-                PrevPicVideo.Enabled = false;
-            }
+            guiMaFault("x");
+            LuuTiendo();
+            //MessageBox.Show("đã lưu");
         }
 
-        private void btnOK_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-            // Bật nút chuyển ảnh lên
-            PrevPicVideo.Enabled = true;
-            NextPicVideo.Enabled = true;
-
-            //-------------------------
-            if (nActi == 1)
-            {
-                HienthiKhinhanOK(2);
-                nActi++;
-                HienThiBaiHoc(nActi);
-            }
-            else if (nActi > 1)
-            {
-                if (int.Parse(hide) == 1)
-                {
-                    nActi++;
-                    HienThiBaiHoc(nActi);
-                    HienthiKhinhanOK(nActi);
-                }
-                else if (int.Parse(hide) == 0)
-                {
-                    CheckDapAn();
-                    HienThiBaiHoc(nActi);
-                }
-            }
+            guiMaFault("x");
+            this.Close();
         }
 
         private void chlstDapAn_ItemCheck(object sender, ItemCheckEventArgs e)
@@ -550,74 +486,21 @@ namespace HoanThanhDangNhap
             }
         }
 
-        private void buttonLeft_Click(object sender, EventArgs e) //nút tiến wiring
+        private void PrevPicVideo_Click(object sender, EventArgs e)
         {
-            if (currentImageIndex < maxImageIndex)
+            if (currentImageIndexVideo > 1)
             {
-                currentImageIndex++;
-                LoadImage(currentImageIndex);
-                LoadButtonsWiring(currentImageIndex, buttonCount);
-                buttonLeft.Enabled = true;
-                buttonRight.Enabled = true;
+                currentImageIndexVideo--;
+                LoadImageVideo(currentImageIndexVideo);
+                LoadButtonsVideo(currentImageIndexVideo, buttonCountVideo);
+                NextPicVideo.Enabled = true;
             }
-            if (currentImageIndex == maxImageIndex)
+            if (currentImageIndexVideo == 1)
             {
-                buttonLeft.Enabled = false;
-                btnOK.Enabled = true;
+                PrevPicVideo.Enabled = false;
             }
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
 
         }
-
-        private void rtb_Baihoc_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panelVideo_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void formHienThiBaiHoc2_FormClosed_1(object sender, FormClosedEventArgs e)
-        {
-            guiMaFault("x");
-            LuuTiendo();
-            //MessageBox.Show("đã lưu");
-        }
-
-        private void btThoat_Click(object sender, EventArgs e)
-        {
-            guiMaFault("x");
-            this.Close();
-        }
-
-       
-
-        
-
-        private void buttonRight_Click(object sender, EventArgs e) // nút lùi wiring
-        {
-            if (currentImageIndex > 1)
-            {
-                currentImageIndex--;
-                LoadImage(currentImageIndex);
-                LoadButtonsWiring(currentImageIndex, buttonCount);
-                buttonRight.Enabled = true;
-                buttonLeft.Enabled = true;
-            }
-            if (currentImageIndex == 1)
-            {
-                buttonRight.Enabled = false;
-            }
-        }
-
-        
-
-        
 
         private void NextPicVideo_Click(object sender, EventArgs e)
         {
@@ -635,9 +518,9 @@ namespace HoanThanhDangNhap
             }
         }
 
-        
+       
 
-        
+
 
         /*private void pictureBox3_Click(object sender, EventArgs e)
         {
@@ -678,7 +561,34 @@ namespace HoanThanhDangNhap
             serialPort1.Write(ft);
             serialPort1.Close();
         }
-        
+        private void btnOK_Click(object sender, EventArgs e)
+        {
+            // Bật nút chuyển ảnh lên
+            PrevPicVideo.Enabled = true;
+            NextPicVideo.Enabled = true;
+
+            //-------------------------
+            if (nActi == 1)
+            {
+                HienthiKhinhanOK(2);
+                nActi++;
+                HienThiBaiHoc(nActi);
+            }
+            else if (nActi > 1)
+            {
+                if (int.Parse(hide) == 1)
+                {
+                    nActi++;
+                    HienThiBaiHoc(nActi);
+                    HienthiKhinhanOK(nActi);
+                }
+                else if (int.Parse(hide) == 0)
+                {
+                    CheckDapAn();
+                    HienThiBaiHoc(nActi);
+                }
+            }
+        }
         private void CheckDapAn()
         {
             if (chlstDapAn.Text == "")
@@ -705,7 +615,7 @@ namespace HoanThanhDangNhap
         private void LuuTiendo()
         {
             SQLiteConnection conn = null;
-            string strConn = string.Format(@"Data Source = {0}\DBLogim.db;Version=3;", System.Windows.Forms.Application.StartupPath);
+            string strConn = string.Format(@"Data Source = {0}\DBLogin.db;Version=3;", System.Windows.Forms.Application.StartupPath);
             try
             {
                 conn = new SQLiteConnection(strConn);
@@ -774,13 +684,61 @@ namespace HoanThanhDangNhap
             }
         }
 
-        
+        private void buttonLeft_Click(object sender, EventArgs e)  // nút tiến wiring
+        {
+            if (currentImageIndex < maxImageIndex)
+            {
+                currentImageIndex++;
+                LoadImage(currentImageIndex);
+                LoadButtonsWiring(currentImageIndex, buttonCount);
+                buttonLeft.Enabled = true;
+                buttonRight.Enabled = true;
+            }
+            if (currentImageIndex == maxImageIndex)
+            {
+                buttonLeft.Enabled = false;
+                btnOK.Enabled = true;
+            }
+        }
 
-        
-
-
-
-
-
+        private void buttonRight_Click(object sender, EventArgs e)  // nút lùi wiring
+        {
+            if (currentImageIndex > 1)
+            {
+                currentImageIndex--;
+                LoadImage(currentImageIndex);
+                LoadButtonsWiring(currentImageIndex, buttonCount);
+                buttonRight.Enabled = true;
+                buttonLeft.Enabled = true;
+            }
+            if (currentImageIndex == 1)
+            {
+                buttonRight.Enabled = false;
+            }
+        }
     }
 }
+//private void HienThiWiring() 2
+//private void LaySoHinh() 1
+//private void LoadImage(int index) 4
+//private void LoadButtonsWiring(int currentIndex, int count) 4
+//private void LoadButtonsVideo(int currentIndexVideo, int countVideo) 3
+//private void TaoVaXuLyNut(int dodai) 1
+//private void HienThiBaiDaHoc(int v) 1
+//private void HienthiKhinhanOK(int v) 3
+//private void Nut_Click(object sender, EventArgs e) 1
+//private void HienThiBaiHoc(int v) 6
+//private void HienThiVideo() 1
+//private void LoadImageVideo(int index) 4
+//private void formHienThiBaiHoc_FormClosed(object sender, FormClosedEventArgs e) 1
+//private void button3_Click(object sender, EventArgs e) 1
+//private void chlstDapAn_ItemCheck(object sender, ItemCheckEventArgs e) 1
+//private void PrevPicVideo_Click(object sender, EventArgs e)  1
+//private void NextPicVideo_Click(object sender, EventArgs e) 1
+// private void guiMaFault(string ft) 9
+//private void btnOK_Click(object sender, EventArgs e) 1
+// private void CheckDapAn() 1
+//private void LuuTiendo() 1
+//private void buttonLeft_Click(object sender, EventArgs e)  // nút tiến wiring 1 
+// private void buttonRight_Click(object sender, EventArgs e)  // nút lùi wiring 1
+

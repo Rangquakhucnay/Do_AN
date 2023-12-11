@@ -269,6 +269,7 @@
             this.panelThucHanh.Size = new System.Drawing.Size(732, 110);
             this.panelThucHanh.TabIndex = 30;
             this.panelThucHanh.Click += new System.EventHandler(this.panelThucHanh_Click);
+
             // 
             // panelKiemTra
             // 
@@ -301,8 +302,7 @@
             this.panelThuchanh2.Name = "panelThuchanh2";
             this.panelThuchanh2.Size = new System.Drawing.Size(732, 110);
             this.panelThuchanh2.TabIndex = 29;
-            this.panelThuchanh2.Click += new System.EventHandler(this.panelBaiHoc2_Click);
-            this.panelThuchanh2.Paint += new System.Windows.Forms.PaintEventHandler(this.panelThuchanh2_Paint);
+            this.panelThuchanh2.Click += new System.EventHandler(this.panelThuchanh2_Click);
             // 
             // LoginStudent
             // 

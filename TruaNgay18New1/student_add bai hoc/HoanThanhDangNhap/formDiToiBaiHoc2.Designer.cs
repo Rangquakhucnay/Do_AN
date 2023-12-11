@@ -106,7 +106,8 @@
             "4",
             "5",
             "6",
-            "7"});
+            "7",
+            "8"});
             this.cbSttChuongBH.Location = new System.Drawing.Point(249, 50);
             this.cbSttChuongBH.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cbSttChuongBH.Name = "cbSttChuongBH";

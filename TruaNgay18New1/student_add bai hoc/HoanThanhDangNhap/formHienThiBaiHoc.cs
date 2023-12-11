@@ -272,6 +272,9 @@ namespace HoanThanhDangNhap
             buttonRight.Enabled = true;
         }
 
+        /// <summary>
+        /// /////////////////////////////////////////////////////////////////////////////////////
+        /// </summary>
         
         private void HienThiBaiHoc(int v)
         {
@@ -309,7 +312,7 @@ namespace HoanThanhDangNhap
                     nonNullRowCount++;
                 }
             }
-
+            ////////////////
 
             // Duyệt qua các hàng trong tập tin Excel để tìm kiếm dữ liệu
             for (int row = 1; row <= nonNullRowCount; row++)
@@ -517,30 +520,7 @@ namespace HoanThanhDangNhap
             }
         }
 
-        private void chlstDapAn_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void picChe_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void picPanelVideo_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void flowLayoutPanel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+        
 
         /*private void pictureBox3_Click(object sender, EventArgs e)
         {

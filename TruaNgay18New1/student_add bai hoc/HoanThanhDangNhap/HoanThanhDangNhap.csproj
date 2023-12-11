@@ -303,12 +303,6 @@
     <Compile Include="formThucHanh.Designer.cs">
       <DependentUpon>formThucHanh.cs</DependentUpon>
     </Compile>
-    <Compile Include="formThuchanh2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="formThuchanh2.Designer.cs">
-      <DependentUpon>formThuchanh2.cs</DependentUpon>
-    </Compile>
     <Compile Include="GVTaoMaLoi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -650,9 +644,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formThucHanh.resx">
       <DependentUpon>formThucHanh.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="formThuchanh2.resx">
-      <DependentUpon>formThuchanh2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GVTaoMaLoi.resx">
       <DependentUpon>GVTaoMaLoi.cs</DependentUpon>
