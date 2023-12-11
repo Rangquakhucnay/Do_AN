@@ -32,6 +32,7 @@ namespace HoanThanhDangNhap
             { "Chương 5:", "KIM PHUN" },
             { "Chương 6:", "KIM PHUN KHỞI ĐỘNG LẠNH" },
             { "Chương 7:", "HỆ THỐNG ĐIÊU KHIỂN TỐC ĐỘ CẦM CHỪNG" },
+            { "Chương 8:", "HỆ THỐNG ĐIỀU KHIỂN BƯỚM GA ĐIỆN TỬ" },
             //{ "Chương 8:", "value4" },
             // và tiếp tục với các cặp khác...
         };

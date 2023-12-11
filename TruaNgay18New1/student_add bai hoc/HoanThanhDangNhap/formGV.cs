@@ -24,7 +24,7 @@ namespace HoanThanhDangNhap
         private void label2_Click(object sender, EventArgs e)
         {
             //this.Hide();
-            LoginAd ad = new LoginAd();
+            taoaccount ad = new taoaccount();
             ad.ShowDialog();
         }
 

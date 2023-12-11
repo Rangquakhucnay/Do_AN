@@ -369,11 +369,11 @@
     <Compile Include="LoginDauTien.Designer.cs">
       <DependentUpon>LoginDauTien.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginAd.cs">
+    <Compile Include="taoaccount.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginAd.Designer.cs">
-      <DependentUpon>LoginAd.cs</DependentUpon>
+    <Compile Include="taoaccount.Designer.cs">
+      <DependentUpon>taoaccount.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginStudent.cs">
       <SubType>Form</SubType>
@@ -681,8 +681,8 @@
     <EmbeddedResource Include="LoginDauTien.resx">
       <DependentUpon>LoginDauTien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginAd.resx">
-      <DependentUpon>LoginAd.cs</DependentUpon>
+    <EmbeddedResource Include="taoaccount.resx">
+      <DependentUpon>taoaccount.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginStudent.resx">
       <DependentUpon>LoginStudent.cs</DependentUpon>
