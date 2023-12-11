@@ -59,6 +59,8 @@
             this.btCheck = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
+            this.lbCauhoi = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
@@ -74,6 +76,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.lbCauhoi);
             this.panel1.Location = new System.Drawing.Point(3, 89);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(442, 423);
@@ -374,6 +377,15 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Bài 1: Cảm Biến Lưu Lượng Không Khí Nạp Kiểu Dây Nhiệt";
             // 
+            // lbCauhoi
+            // 
+            this.lbCauhoi.AutoSize = true;
+            this.lbCauhoi.Location = new System.Drawing.Point(12, 21);
+            this.lbCauhoi.Name = "lbCauhoi";
+            this.lbCauhoi.Size = new System.Drawing.Size(51, 16);
+            this.lbCauhoi.TabIndex = 0;
+            this.lbCauhoi.Text = "label12";
+            // 
             // daynhiet3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -386,6 +398,9 @@
             this.Name = "daynhiet3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "daynhiet2cs";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.daynhiet3_FormClosed);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
@@ -441,5 +456,6 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lbCauhoi;
     }
 }

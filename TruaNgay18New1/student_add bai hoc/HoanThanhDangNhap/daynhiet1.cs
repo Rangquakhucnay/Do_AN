@@ -25,6 +25,14 @@ namespace HoanThanhDangNhap
         private void btStart_Click(object sender, EventArgs e)
         {
             daynhiet2 f = new daynhiet2();
+            this.Hide();
+            f.ShowDialog();
+        }
+
+        private void daynhiet1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            formkt f = new formkt();
+            this.Hide();
             f.ShowDialog();
         }
     }

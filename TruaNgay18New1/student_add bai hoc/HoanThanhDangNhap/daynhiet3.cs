@@ -17,8 +17,18 @@ namespace HoanThanhDangNhap
             InitializeComponent();
             groupBox2.Visible = false;
             btNext.Visible = false;
+            SetQuestion("Câu 1: Xác định các chân của cảm biến (Theo hướng giắc đực).\r\n"); // Gọi phương thức SetQuestion và truyền nội dung câu hỏi
+            SetQuestion1("..................."); 
         }
 
+        private void SetQuestion(string question)
+        {
+            lbCauhoi.Text = question; // Đặt nội dung câu hỏi cho Label
+        }
+        private void SetQuestion1(string question)
+        {
+            label1.Text = question; // Đặt nội dung câu hỏi cho Label
+        }
         private void btCheck_Click(object sender, EventArgs e)
         {
             if (textBox1.Text =="" && textBox2.Text== "" && textBox3.Text=="" && textBox4.Text== "" && textBox5.Text =="")
@@ -110,7 +120,14 @@ namespace HoanThanhDangNhap
         private void btNext_Click(object sender, EventArgs e)
         {
             daynhiet3_1 f= new daynhiet3_1();   
+            this.Hide();
             f.ShowDialog(); 
+        }
+
+        private void daynhiet3_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            formkt formkt = new formkt();
+            formkt.ShowDialog();
         }
     }
 }

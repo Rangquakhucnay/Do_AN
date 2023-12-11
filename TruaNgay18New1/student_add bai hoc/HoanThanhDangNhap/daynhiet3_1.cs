@@ -28,12 +28,14 @@ namespace HoanThanhDangNhap
         private void btNext_Click(object sender, EventArgs e)
         {
             daynhiet4 f= new daynhiet4();
+            this.Hide();
             f.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            daynhiet3 f = new daynhiet3();      
+            daynhiet3 f = new daynhiet3();
+            this.Hide();
             f.ShowDialog();
         }
 
@@ -45,7 +47,13 @@ namespace HoanThanhDangNhap
         private void daynhiet3_1_FormClosed(object sender, FormClosedEventArgs e)
         {
             formkt formkt = new formkt();
+            this.Hide();
             formkt.ShowDialog();
+        }
+
+        private void lbCauhoi_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

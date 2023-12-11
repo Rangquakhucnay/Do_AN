@@ -116,6 +116,7 @@
             this.lbCauhoi.Size = new System.Drawing.Size(883, 29);
             this.lbCauhoi.TabIndex = 3;
             this.lbCauhoi.Text = "Câu 2: Đo điện trở cảm biến ở chân THA theo nhiệt độ môi trường Yêu cầu: ";
+            this.lbCauhoi.Click += new System.EventHandler(this.lbCauhoi_Click);
             // 
             // btNext
             // 
