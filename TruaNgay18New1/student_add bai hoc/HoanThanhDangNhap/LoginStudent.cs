@@ -232,5 +232,18 @@ namespace HoanThanhDangNhap
                 k1.ShowDialog();
             }
         }
+
+        private void panelThuchanh2_Paint(object sender, PaintEventArgs e)
+        {
+            if (btnNutKetNoi.Text == "Kết nối")
+            {
+                MessageBox.Show("Vui lòng kết nối với mô hình trước khi sử dụng");
+            }
+            else
+            {
+                formkt k = new formkt();
+                k.ShowDialog();
+            }
+        }
     }
 }

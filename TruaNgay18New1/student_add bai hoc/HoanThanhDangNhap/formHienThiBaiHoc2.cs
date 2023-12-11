@@ -705,7 +705,7 @@ namespace HoanThanhDangNhap
         private void LuuTiendo()
         {
             SQLiteConnection conn = null;
-            string strConn = string.Format(@"Data Source = {0}\DBLogin.db;Version=3;", System.Windows.Forms.Application.StartupPath);
+            string strConn = string.Format(@"Data Source = {0}\DBLogim.db;Version=3;", System.Windows.Forms.Application.StartupPath);
             try
             {
                 conn = new SQLiteConnection(strConn);

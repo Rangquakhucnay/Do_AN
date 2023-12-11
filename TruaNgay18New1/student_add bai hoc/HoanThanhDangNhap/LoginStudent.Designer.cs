@@ -285,12 +285,12 @@
             this.Thuchanh2.AutoSize = true;
             this.Thuchanh2.BackColor = System.Drawing.Color.Transparent;
             this.Thuchanh2.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Thuchanh2.Location = new System.Drawing.Point(277, 24);
+            this.Thuchanh2.Location = new System.Drawing.Point(237, 22);
             this.Thuchanh2.Name = "Thuchanh2";
             this.Thuchanh2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Thuchanh2.Size = new System.Drawing.Size(161, 54);
+            this.Thuchanh2.Size = new System.Drawing.Size(252, 54);
             this.Thuchanh2.TabIndex = 1;
-            this.Thuchanh2.Text = "nhu cc";
+            this.Thuchanh2.Text = "Thực Hành";
             this.Thuchanh2.Click += new System.EventHandler(this.Thuchanh2_Click);
             // 
             // panelThuchanh2
@@ -302,6 +302,7 @@
             this.panelThuchanh2.Size = new System.Drawing.Size(732, 110);
             this.panelThuchanh2.TabIndex = 29;
             this.panelThuchanh2.Click += new System.EventHandler(this.panelBaiHoc2_Click);
+            this.panelThuchanh2.Paint += new System.Windows.Forms.PaintEventHandler(this.panelThuchanh2_Paint);
             // 
             // LoginStudent
             // 

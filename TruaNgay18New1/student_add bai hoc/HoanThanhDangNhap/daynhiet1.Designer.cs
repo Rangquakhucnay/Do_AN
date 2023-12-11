@@ -65,6 +65,7 @@
             this.Name = "daynhiet1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "daynhiet1cs";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.daynhiet1_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

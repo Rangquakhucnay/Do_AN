@@ -44,7 +44,7 @@ namespace HoanThanhDangNhap
             int chuongBH = int.Parse(cbSttChuongBH.Text);
             int DinhviCot = chuongBH + 5;  //+5 là vì thứ tự cột bên database
             SQLiteConnection conn = null;
-            string strConn = string.Format(@"Data Source = {0}\DBLogin.db;Version=3;", System.Windows.Forms.Application.StartupPath);
+            string strConn = string.Format(@"Data Source = {0}\DBLogim.db;Version=3;", System.Windows.Forms.Application.StartupPath);
             if (conn == null)
                 conn = new SQLiteConnection(strConn);
             if (conn.State == ConnectionState.Closed)

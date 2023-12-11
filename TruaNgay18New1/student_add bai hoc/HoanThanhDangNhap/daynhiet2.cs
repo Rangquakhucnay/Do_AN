@@ -20,7 +20,20 @@ namespace HoanThanhDangNhap
         private void button3_Click(object sender, EventArgs e)
         {
             daynhiet3 f = new daynhiet3();
+            this.Hide();
             f.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            daynhiet1 f = new daynhiet1();
+            this.Hide();
+            f.ShowDialog();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

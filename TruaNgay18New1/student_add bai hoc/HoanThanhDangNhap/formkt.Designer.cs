@@ -88,6 +88,7 @@
             this.btVPAhall.TabIndex = 2;
             this.btVPAhall.Text = "VPA Hall";
             this.btVPAhall.UseVisualStyleBackColor = false;
+            this.btVPAhall.Click += new System.EventHandler(this.btVPAhall_Click);
             // 
             // btVTAhall
             // 
@@ -99,6 +100,7 @@
             this.btVTAhall.TabIndex = 2;
             this.btVTAhall.Text = "VTA Hall";
             this.btVTAhall.UseVisualStyleBackColor = false;
+            this.btVTAhall.Click += new System.EventHandler(this.btVTAhall_Click);
             // 
             // btTHW
             // 
@@ -110,6 +112,7 @@
             this.btTHW.TabIndex = 2;
             this.btTHW.Text = "THW";
             this.btTHW.UseVisualStyleBackColor = false;
+            this.btTHW.Click += new System.EventHandler(this.btTHW_Click);
             // 
             // btDelcoquang
             // 
@@ -132,6 +135,7 @@
             this.btDelcodientu.TabIndex = 2;
             this.btDelcodientu.Text = "G và Ne Delco Điện Tử";
             this.btDelcodientu.UseVisualStyleBackColor = false;
+            this.btDelcodientu.Click += new System.EventHandler(this.btDelcodientu_Click);
             // 
             // btVTAcoIDL
             // 
@@ -143,6 +147,7 @@
             this.btVTAcoIDL.TabIndex = 2;
             this.btVTAcoIDL.Text = "VTA Có IDL";
             this.btVTAcoIDL.UseVisualStyleBackColor = false;
+            this.btVTAcoIDL.Click += new System.EventHandler(this.btVTAcoIDL_Click);
             // 
             // btKarman
             // 
@@ -154,6 +159,7 @@
             this.btKarman.TabIndex = 2;
             this.btKarman.Text = "Karman Siêu Âm";
             this.btKarman.UseVisualStyleBackColor = false;
+            this.btKarman.Click += new System.EventHandler(this.btKarman_Click);
             // 
             // btVPAtuyentinh
             // 
@@ -165,6 +171,7 @@
             this.btVPAtuyentinh.TabIndex = 2;
             this.btVPAtuyentinh.Text = "VPA Tuyến Tính ";
             this.btVPAtuyentinh.UseVisualStyleBackColor = false;
+            this.btVPAtuyentinh.Click += new System.EventHandler(this.btVPAtuyentinh_Click);
             // 
             // btDelcohall
             // 
@@ -176,6 +183,7 @@
             this.btDelcohall.TabIndex = 2;
             this.btDelcohall.Text = "G và Ne Delco Hall";
             this.btDelcohall.UseVisualStyleBackColor = false;
+            this.btDelcohall.Click += new System.EventHandler(this.btDelcohall_Click);
             // 
             // btVTAkoIDL
             // 
@@ -187,6 +195,7 @@
             this.btVTAkoIDL.TabIndex = 2;
             this.btVTAkoIDL.Text = "VTA Không Có IDL";
             this.btVTAkoIDL.UseVisualStyleBackColor = false;
+            this.btVTAkoIDL.Click += new System.EventHandler(this.btVTAkoIDL_Click);
             // 
             // btMap
             // 
@@ -198,6 +207,7 @@
             this.btMap.TabIndex = 2;
             this.btMap.Text = "Map";
             this.btMap.UseVisualStyleBackColor = false;
+            this.btMap.Click += new System.EventHandler(this.btMap_Click);
             // 
             // btVTAtiepdiem
             // 
@@ -209,6 +219,7 @@
             this.btVTAtiepdiem.TabIndex = 2;
             this.btVTAtiepdiem.Text = "VTA Tiếp Điểm";
             this.btVTAtiepdiem.UseVisualStyleBackColor = false;
+            this.btVTAtiepdiem.Click += new System.EventHandler(this.btVTAtiepdiem_Click);
             // 
             // btDaynhiet
             // 
@@ -242,6 +253,7 @@
             this.Name = "formkt";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "formkt";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.formkt_FormClosed);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
