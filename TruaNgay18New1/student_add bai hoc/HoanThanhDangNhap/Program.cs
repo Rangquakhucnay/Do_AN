@@ -16,7 +16,7 @@ namespace HoanThanhDangNhap
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginStudent());
+            Application.Run(new Form1());
         }
     }
 }
