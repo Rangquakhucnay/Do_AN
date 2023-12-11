@@ -66,10 +66,10 @@
             // 
             // panelWiring
             // 
-            this.panelWiring.Location = new System.Drawing.Point(-2, -3);
+            this.panelWiring.Location = new System.Drawing.Point(0, -3);
             this.panelWiring.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelWiring.Name = "panelWiring";
-            this.panelWiring.Size = new System.Drawing.Size(1775, 659);
+            this.panelWiring.Size = new System.Drawing.Size(1785, 659);
             this.panelWiring.TabIndex = 24;
             // 
             // flowLayoutPanel1
@@ -121,10 +121,10 @@
             // pictureBox2
             // 
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Location = new System.Drawing.Point(73, -3);
+            this.pictureBox2.Location = new System.Drawing.Point(188, 183);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1630, 659);
+            this.pictureBox2.Size = new System.Drawing.Size(1515, 473);
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
@@ -152,9 +152,9 @@
             // 
             // picPanelVideo
             // 
-            this.picPanelVideo.Location = new System.Drawing.Point(-2, -3);
+            this.picPanelVideo.Location = new System.Drawing.Point(0, 0);
             this.picPanelVideo.Name = "picPanelVideo";
-            this.picPanelVideo.Size = new System.Drawing.Size(1772, 659);
+            this.picPanelVideo.Size = new System.Drawing.Size(1770, 656);
             this.picPanelVideo.TabIndex = 0;
             this.picPanelVideo.TabStop = false;
             // 
@@ -165,9 +165,9 @@
             this.panelVideo.Controls.Add(this.NextPicVideo);
             this.panelVideo.Controls.Add(this.picPanelVideo);
             this.panelVideo.Controls.Add(this.pictureBox2);
-            this.panelVideo.Location = new System.Drawing.Point(7, 4);
+            this.panelVideo.Location = new System.Drawing.Point(5, 4);
             this.panelVideo.Name = "panelVideo";
-            this.panelVideo.Size = new System.Drawing.Size(1770, 656);
+            this.panelVideo.Size = new System.Drawing.Size(1772, 656);
             this.panelVideo.TabIndex = 18;
             this.panelVideo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelVideo_Paint);
             // 
@@ -207,11 +207,11 @@
             // 
             this.rtb_Baihoc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.rtb_Baihoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rtb_Baihoc.Location = new System.Drawing.Point(0, 0);
+            this.rtb_Baihoc.Location = new System.Drawing.Point(0, 1);
             this.rtb_Baihoc.Margin = new System.Windows.Forms.Padding(0);
             this.rtb_Baihoc.Name = "rtb_Baihoc";
             this.rtb_Baihoc.ReadOnly = true;
-            this.rtb_Baihoc.Size = new System.Drawing.Size(443, 658);
+            this.rtb_Baihoc.Size = new System.Drawing.Size(779, 658);
             this.rtb_Baihoc.TabIndex = 2;
             this.rtb_Baihoc.Text = "";
             this.rtb_Baihoc.TextChanged += new System.EventHandler(this.rtb_Baihoc_TextChanged);
@@ -222,7 +222,7 @@
             this.panel1.Location = new System.Drawing.Point(5, 1);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(440, 659);
+            this.panel1.Size = new System.Drawing.Size(781, 659);
             this.panel1.TabIndex = 20;
             // 
             // btThoat
@@ -240,10 +240,10 @@
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(448, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(782, 1);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1329, 659);
+            this.pictureBox1.Size = new System.Drawing.Size(998, 671);
             this.pictureBox1.TabIndex = 19;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);

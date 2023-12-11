@@ -22,7 +22,7 @@ namespace HoanThanhDangNhap
 
 
         // 1. sử dụng cho hiển thị bài học
-        string dapanA = "", dapanB = "", dapanC = "",dapanD="";
+        string dapanA = "", dapanB = "", dapanC = "";
         string cauhoi = "khong lam dc", baihoc = "", hinhAnh = "";
         string hide = "0", fault = "", answer = "";
         string video = "";
@@ -322,7 +322,6 @@ namespace HoanThanhDangNhap
                     // Duyệt qua các ô trong hàng để lấy dữ liệu
                     for (int col = 2; col <= colCount; col++)
                     {
-                        dapanD = range.Cells[row, 13].Value2.ToString();
                         video = range.Cells[row, 2].Value2.ToString();
                         hinhAnh = range.Cells[row, 3].Value2.ToString();
                         baihoc = range.Cells[row, 4].Value2.ToString();
@@ -338,7 +337,7 @@ namespace HoanThanhDangNhap
                         //
                         if (row > 2)
                         {
-                            faultTruoc = range.Cells[row - 1, 13].Value2.ToString();
+                            faultTruoc = range.Cells[row - 1, 11].Value2.ToString();
                         }
                         //
 
@@ -426,7 +425,7 @@ namespace HoanThanhDangNhap
                 txtQues.Text = cauhoi;
                 chlstDapAn.Items.Clear();
 
-                string[] dsDA = { dapanA, dapanB, dapanC, dapanD };
+                string[] dsDA = { dapanA, dapanB, dapanC };
                 chlstDapAn.Items.AddRange(dsDA);
             }
         }

@@ -25,13 +25,13 @@ namespace HoanThanhDangNhap
 
         string[,] lookupTable_Chuong = new string[,]
         {
-            { "Chương 1:", "CẢM BIẾN TRÊN HỆ THỐNG ĐIỀU KHIỂN ĐỘNG CƠ" },
-            { "Chương 2:", "ĐỊNH LUẬT OHM" },
-            { "Chương 3:", "MẠCH CÒI" },
-            { "Chương 4:", "MẠCH ĐÈN LÙI" },
-            { "Chương 5:", "MẠCH ĐÈN HẬU VÀ ĐÈN PHANH" },
-            { "Chương 6:", "MẠCH KHỞI ĐỘNG" },
-            { "Chương 7:", "MẠCH ĐÈN BÁO RẼ" },
+            { "Chương 1:", "BƠM NHIÊN LIỆU" },
+            { "Chương 2:", "LỌC NHIÊN LIỆU" },
+            { "Chương 3:", "BỘ DẬP DAO ĐỘNG" },
+            { "Chương 4:", "BỘ ĐIỀU ÁP" },
+            { "Chương 5:", "KIM PHUN" },
+            { "Chương 6:", "KIM PHUN KHỞI ĐỘNG LẠNH" },
+            { "Chương 7:", "HỆ THỐNG ĐIÊU KHIỂN TỐC ĐỘ CẦM CHỪNG" },
             //{ "Chương 8:", "value4" },
             // và tiếp tục với các cặp khác...
         };

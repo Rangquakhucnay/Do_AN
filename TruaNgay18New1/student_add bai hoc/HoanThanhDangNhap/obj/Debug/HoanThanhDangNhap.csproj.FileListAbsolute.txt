@@ -1360,7 +1360,6 @@ D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\H
 D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.LoginStudent.resources
 D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.Properties.Resources.resources
 D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.TienDoSV.resources
-D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.vailonaTRi.resources
 D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.csproj.GenerateResource.cache
 D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.csproj.CoreCompileInputs.cache
 D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.csproj.CopyComplete
@@ -1479,3 +1478,48 @@ D:\Đồ Án\DO AN\Do_AN\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\ob
 D:\Đồ Án\DO AN\Do_AN\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.VPAhall1.resources
 D:\Đồ Án\DO AN\Do_AN\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.VPAtuyentinh.resources
 D:\Đồ Án\DO AN\Do_AN\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.VPAtuyentinh1.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.daynhiet5.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.daynhiet6.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.delcodientu.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.delcodientu1.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.delcodientu2.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.delcodientu3.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.delcodientu4.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.delcohall.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.delcohall1.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.delcoquang.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.delcoquang1.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.delcoquang2.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.karman.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.karman1.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.karman2.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.karman3.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.karman4.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.karman5.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.karman6.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.map.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.map1.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.map2.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.thw.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.thw1.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.thw2.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.VPAhall.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.VPAhall1.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.VTAcoIDL.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.VTAcoIDL1.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.VTAcoIDL2.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.VTAcoIDL3.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.VTAhall.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.VTAhall1.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.VTAhall2.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.VTAkhongIDL.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.VTAkhongIDL1.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.VTAkhongIDL2.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.VTAkhongIDL3.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.vtatiepdiem.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.vtatiepdiem1.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.vtatiepdiem2.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.vtatiepdiem3.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.vtatiepdiem4.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.VPAtuyentinh.resources
+D:\Đồ án tốt nghiệp\doantn\dinh\Loz\TruaNgay18New1\student_add bai hoc\HoanThanhDangNhap\obj\Debug\HoanThanhDangNhap.VPAtuyentinh1.resources
