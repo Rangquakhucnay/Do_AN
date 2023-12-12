@@ -309,8 +309,9 @@ namespace HoanThanhDangNhap
                 }
                 if (hasNonNullValue)
                 {
-                    nonNullRowCount++;
+                    nonNullRowCount++; // =27 của chương1
                 }
+                bt1.Text = nonNullRowCount.ToString();
             }
             ////////////////
 

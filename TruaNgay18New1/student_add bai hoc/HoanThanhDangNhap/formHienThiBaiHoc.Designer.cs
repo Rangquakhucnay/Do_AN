@@ -52,6 +52,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panelWiring = new System.Windows.Forms.Panel();
+            this.bt1 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -112,7 +113,6 @@
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(108, 854);
             this.flowLayoutPanel2.TabIndex = 16;
-           
             // 
             // button3
             // 
@@ -176,7 +176,6 @@
             this.chlstDapAn.Size = new System.Drawing.Size(1496, 167);
             this.chlstDapAn.TabIndex = 1;
             this.chlstDapAn.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.chlstDapAn_ItemCheck);
-  
             // 
             // panel2
             // 
@@ -198,7 +197,6 @@
             this.picChe.Size = new System.Drawing.Size(1497, 318);
             this.picChe.TabIndex = 17;
             this.picChe.TabStop = false;
-           
             // 
             // txtQues
             // 
@@ -253,7 +251,7 @@
             this.picPanelVideo.Size = new System.Drawing.Size(1706, 668);
             this.picPanelVideo.TabIndex = 0;
             this.picPanelVideo.TabStop = false;
-
+            // 
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -302,7 +300,6 @@
             this.pictureBox2.Size = new System.Drawing.Size(1115, 655);
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
-          
             // 
             // panelWiring
             // 
@@ -313,11 +310,21 @@
             this.panelWiring.Size = new System.Drawing.Size(1768, 683);
             this.panelWiring.TabIndex = 15;
             // 
+            // bt1
+            // 
+            this.bt1.Location = new System.Drawing.Point(1613, 907);
+            this.bt1.Name = "bt1";
+            this.bt1.Size = new System.Drawing.Size(75, 23);
+            this.bt1.TabIndex = 20;
+            this.bt1.Text = "button1";
+            this.bt1.UseVisualStyleBackColor = true;
+            // 
             // formHienThiBaiHoc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1890, 950);
+            this.Controls.Add(this.bt1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panelWiring);
             this.Controls.Add(this.panelVideo);
@@ -376,5 +383,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Panel panelWiring;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button bt1;
     }
 }

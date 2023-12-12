@@ -82,7 +82,7 @@ namespace HoanThanhDangNhap
                 HienThiBaiHoc(nActi);
 }
 
-                TaoVaXuLyNut(nonNullRowCount - 1); // hiển thị số acti
+                TaoVaXuLyNut(nonNullRowCount - 1); // hiển thị số acti   nonNullRowCount
 
                 HienThiBaiDaHoc(nQT);               // hiển thị các bài đã học bằng cách tô đậm
         }
@@ -518,7 +518,9 @@ namespace HoanThanhDangNhap
             }
         }
 
-       
+        
+
+
 
 
 

@@ -112,6 +112,7 @@
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(108, 854);
             this.flowLayoutPanel2.TabIndex = 16;
+       
             // 
             // button3
             // 
@@ -329,12 +330,12 @@
             this.Name = "formHienThiBaiHoc2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bài học";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.formHienThiBaiHoc2_FormClosed);
             this.Load += new System.EventHandler(this.formHienThiBaiHoc2_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.formHienThiBaiHoc2_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.picChe)).EndInit();
             this.panelVideo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picPanelVideo)).EndInit();
