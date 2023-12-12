@@ -66,10 +66,10 @@
             // 
             // panelWiring
             // 
-            this.panelWiring.Location = new System.Drawing.Point(0, -3);
+            this.panelWiring.Location = new System.Drawing.Point(0, 0);
             this.panelWiring.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panelWiring.Name = "panelWiring";
-            this.panelWiring.Size = new System.Drawing.Size(1785, 659);
+            this.panelWiring.Size = new System.Drawing.Size(1785, 656);
             this.panelWiring.TabIndex = 24;
             // 
             // flowLayoutPanel1
@@ -165,9 +165,9 @@
             this.panelVideo.Controls.Add(this.NextPicVideo);
             this.panelVideo.Controls.Add(this.picPanelVideo);
             this.panelVideo.Controls.Add(this.pictureBox2);
-            this.panelVideo.Location = new System.Drawing.Point(5, 4);
+            this.panelVideo.Location = new System.Drawing.Point(5, 1);
             this.panelVideo.Name = "panelVideo";
-            this.panelVideo.Size = new System.Drawing.Size(1772, 656);
+            this.panelVideo.Size = new System.Drawing.Size(1772, 659);
             this.panelVideo.TabIndex = 18;
             this.panelVideo.Paint += new System.Windows.Forms.PaintEventHandler(this.panelVideo_Paint);
             // 
@@ -207,11 +207,11 @@
             // 
             this.rtb_Baihoc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.rtb_Baihoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rtb_Baihoc.Location = new System.Drawing.Point(0, 1);
+            this.rtb_Baihoc.Location = new System.Drawing.Point(0, 0);
             this.rtb_Baihoc.Margin = new System.Windows.Forms.Padding(0);
             this.rtb_Baihoc.Name = "rtb_Baihoc";
             this.rtb_Baihoc.ReadOnly = true;
-            this.rtb_Baihoc.Size = new System.Drawing.Size(779, 658);
+            this.rtb_Baihoc.Size = new System.Drawing.Size(771, 658);
             this.rtb_Baihoc.TabIndex = 2;
             this.rtb_Baihoc.Text = "";
             this.rtb_Baihoc.TextChanged += new System.EventHandler(this.rtb_Baihoc_TextChanged);
@@ -222,7 +222,7 @@
             this.panel1.Location = new System.Drawing.Point(5, 1);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(781, 659);
+            this.panel1.Size = new System.Drawing.Size(771, 659);
             this.panel1.TabIndex = 20;
             // 
             // btThoat
