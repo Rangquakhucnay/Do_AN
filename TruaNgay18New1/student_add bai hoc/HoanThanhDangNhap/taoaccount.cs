@@ -157,7 +157,7 @@ namespace HoanThanhDangNhap
                         //Thêm dữ liệu sinh viên
                         SQLiteCommand command = new SQLiteCommand();
                         command.CommandType = CommandType.Text;
-                        string sql = "Insert into ThongTinSinhVien(TenSinhVien,TenDangNhap,MatKhau,MaLop,Quyen,nqtc1,nqtc2,nqtc3,nqtc4,nqtc5,nqtc6,nqtc7) values(@tensv,@tendn,@matkhau,@malop,@quyen,@nqtc1,@nqtc2,@nqtc3,@nqtc4,@nqtc5,@nqtc6,@nqtc7)";
+                        string sql = "Insert into ThongTinSinhVien(TenSinhVien,TenDangNhap,MatKhau,MaLop,Quyen,nqtc1,nqtc2,nqtc3,nqtc4,nqtc5,nqtc6,nqtc7,nqtc8,nqtc9,nqtc10,nqtc11,nqtc12,nqtc13,nqtc14,nqtc15,nqtc16) values(@tensv,@tendn,@matkhau,@malop,@quyen,@nqtc1,@nqtc2,@nqtc3,@nqtc4,@nqtc5,@nqtc6,@nqtc7,@nqtc8,@nqtc9,@nqtc10,@nqtc11,@nqtc12,@nqtc13,@nqtc14,@nqtc15,@nqtc16)";
                         command.CommandText = sql;
                         command.Connection = conn;
                         command.Parameters.AddWithValue("@tensv", txtTensinhvienmoi.Text);
@@ -171,9 +171,18 @@ namespace HoanThanhDangNhap
                         command.Parameters.AddWithValue("@nqtc3", 4);
                         command.Parameters.AddWithValue("@nqtc4", 8);
                         command.Parameters.AddWithValue("@nqtc5", 3);
-                        command.Parameters.AddWithValue("@nqtc6", 1);
-                        command.Parameters.AddWithValue("@nqtc7", 1);
-                       // command.Parameters.AddWithValue("@nqtc7", 1);
+                        command.Parameters.AddWithValue("@nqtc6", 5);
+                        command.Parameters.AddWithValue("@nqtc7", 5);
+                        command.Parameters.AddWithValue("@nqtc8", 13);
+                        command.Parameters.AddWithValue("@nqtc9", 1);
+                        command.Parameters.AddWithValue("@nqtc10", 3);
+                        command.Parameters.AddWithValue("@nqtc11", 2);
+                        command.Parameters.AddWithValue("@nqtc12", 10);
+                        command.Parameters.AddWithValue("@nqtc13", 3);
+                        command.Parameters.AddWithValue("@nqtc14", 14);
+                        command.Parameters.AddWithValue("@nqtc15", 6);
+                        command.Parameters.AddWithValue("@nqtc16", 9);
+                        // command.Parameters.AddWithValue("@nqtc10000", 1);
                         int kq = command.ExecuteNonQuery();
                         if (kq > 0)
                         {

@@ -92,7 +92,7 @@ namespace HoanThanhDangNhap
         private void btVPAtuyentinh_Click(object sender, EventArgs e)
         {
             VPAtuyentinh f = new VPAtuyentinh();
-            this.Hide(); 
+            this.Close(); 
             f.ShowDialog();
         }
 
@@ -109,6 +109,8 @@ namespace HoanThanhDangNhap
             this.Close();
             f.ShowDialog();
         }
+
+       
     }
     }
 

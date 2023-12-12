@@ -1,4 +1,4 @@
-﻿using Org.BouncyCastle.Math.EC;
+﻿    using Org.BouncyCastle.Math.EC;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -43,9 +43,9 @@ namespace HoanThanhDangNhap
             cbSoActiBH.Enabled = true;
             string tendangnhapform1 = Properties.Settings.Default.TenDangNhapALL;
             int chuongBH = int.Parse(cbSttChuongBH.Text);
-            int DinhviCot = chuongBH + 5;  //+5 là vì thứ tự cột bên database
+            int DinhviCot = chuongBH + 12;  //+12 là vì thứ tự cột bên database
             SQLiteConnection conn = null;
-            string strConn = string.Format(@"Data Source = {0}\DBLogim.db;Version=3;", System.Windows.Forms.Application.StartupPath);
+            string strConn = string.Format(@"Data Source = {0}\DBLogin.db;Version=3;", System.Windows.Forms.Application.StartupPath);
             if (conn == null)
                 conn = new SQLiteConnection(strConn);
             if (conn.State == ConnectionState.Closed)
