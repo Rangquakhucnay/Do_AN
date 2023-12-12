@@ -254,7 +254,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "formkt";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.formkt_FormClosed);
-          
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

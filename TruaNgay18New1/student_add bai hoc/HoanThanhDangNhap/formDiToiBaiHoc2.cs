@@ -103,7 +103,7 @@ namespace HoanThanhDangNhap
             else
             {
                 sttChuongBaiHoc2 = cbSttChuongBH.Text;
-                SoActi = cbSoActiBH.Text;
+                SoActi = cbSoActiBH.Text;////////////////////////////////////////////////////////
                 //formBaiHocChuong3 f = new formBaiHocChuong3();
                 formHienThiBaiHoc2 f = new formHienThiBaiHoc2();
                 int a = int.Parse(cbSttChuongBH.Text);
@@ -128,5 +128,7 @@ namespace HoanThanhDangNhap
         {
             this.Close();
         }
+
+        
     }
 }

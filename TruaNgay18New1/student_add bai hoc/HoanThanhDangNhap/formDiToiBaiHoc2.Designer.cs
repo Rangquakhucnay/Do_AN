@@ -47,6 +47,7 @@
             this.cbSoActiBH.Name = "cbSoActiBH";
             this.cbSoActiBH.Size = new System.Drawing.Size(65, 37);
             this.cbSoActiBH.TabIndex = 22;
+          
             // 
             // label3
             // 
