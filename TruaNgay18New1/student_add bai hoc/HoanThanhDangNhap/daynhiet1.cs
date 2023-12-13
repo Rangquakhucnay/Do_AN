@@ -32,7 +32,7 @@ namespace HoanThanhDangNhap
         private void daynhiet1_FormClosed(object sender, FormClosedEventArgs e)
         {
             formkt f = new formkt();
-            this.Hide();
+            this.Close();
             f.ShowDialog();
         }
     }

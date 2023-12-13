@@ -18,6 +18,12 @@ namespace HoanThanhDangNhap
             btNext.Visible = false;
             SetQuestion("Câu 2: Tín hiệu điện áp cực VTA khi ở chế độ cầm chừng là ?\r\n"); // Gọi phương thức SetQ
             SetQuestion1("................");
+            exitsetting();
+        }
+
+        void exitsetting()
+        {
+            ControlBox = false;
         }
         private void SetQuestion(string question)
         {

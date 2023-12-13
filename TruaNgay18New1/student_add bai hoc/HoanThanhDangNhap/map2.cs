@@ -19,6 +19,12 @@ namespace HoanThanhDangNhap
             //  btNext.Visible = false;
             SetQuestion("Câu 4: Kiểm tra tín hiệu VG khi kết nối cảm biến.\r\n");
             SetQuestion1("...........................");
+            exitsetting();
+        }
+
+        void exitsetting()
+        {
+            ControlBox = false;
         }
         private void SetQuestion(string question)
         {
@@ -37,6 +43,7 @@ namespace HoanThanhDangNhap
 
         private void btNext_Click(object sender, EventArgs e)
         {
+            this.Close();
            // map f = new map();
           //  this.Hide();
           //  f.ShowDialog();

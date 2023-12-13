@@ -27,7 +27,7 @@ namespace HoanThanhDangNhap
         private void delcohall_FormClosed(object sender, FormClosedEventArgs e)
         {
             formkt f = new formkt();
-            this.Hide();
+            this.Close();
             f.ShowDialog();
         }
     }

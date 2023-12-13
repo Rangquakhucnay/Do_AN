@@ -18,6 +18,12 @@ namespace HoanThanhDangNhap
             //  btNext.Visible = false;
             SetQuestion("Câu 3: Đo điện áp tín hiệu VTA khi cánh bướm ga mở hết.\r\n");
             SetQuestion1("...........................");
+            exitsetting();
+        }
+
+        void exitsetting()
+        {
+            ControlBox = false;
         }
         private void SetQuestion(string question)
         {

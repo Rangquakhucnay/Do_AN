@@ -18,6 +18,12 @@ namespace HoanThanhDangNhap
             btNext.Visible = false;
             SetQuestion("Câu 4: Khi ở chế độ đầy tải tín hiệu cảm biến gửi về là ? (Chọn đáp án đúng nhất)\r\n"); // Gọi phương thức SetQ
             SetQuestion1("................");
+            exitsetting();
+        }
+
+        void exitsetting()
+        {
+            ControlBox = false;
         }
         private void SetQuestion(string question)
         {

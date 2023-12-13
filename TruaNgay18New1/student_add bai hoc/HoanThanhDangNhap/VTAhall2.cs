@@ -17,6 +17,12 @@ namespace HoanThanhDangNhap
             InitializeComponent();
             SetQuestion("Câu 2: Đo điện áp tín hiệu VTA2 khi cánh bướm ga mở hết.\r\n");
             SetQuestion1("...........................");
+            exitsetting();
+        }
+
+        void exitsetting()
+        {
+            ControlBox = false;
         }
         private void SetQuestion(string question)
         {

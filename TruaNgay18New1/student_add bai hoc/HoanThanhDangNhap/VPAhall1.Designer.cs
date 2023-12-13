@@ -283,11 +283,11 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(22, 13);
+            this.label15.Location = new System.Drawing.Point(5, 13);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(73, 32);
+            this.label15.Size = new System.Drawing.Size(112, 32);
             this.label15.TabIndex = 0;
-            this.label15.Text = "THA";
+            this.label15.Text = "VCPA2";
             // 
             // panel8
             // 
@@ -302,11 +302,11 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(31, 13);
+            this.label6.Location = new System.Drawing.Point(14, 13);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(54, 32);
+            this.label6.Size = new System.Drawing.Size(91, 32);
             this.label6.TabIndex = 0;
-            this.label6.Text = "PA";
+            this.label6.Text = "EPA2";
             // 
             // panel7
             // 
@@ -321,11 +321,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(22, 13);
+            this.label5.Location = new System.Drawing.Point(14, 13);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(79, 32);
+            this.label5.Size = new System.Drawing.Size(91, 32);
             this.label5.TabIndex = 0;
-            this.label5.Text = "GND";
+            this.label5.Text = "VPA2";
             // 
             // panel6
             // 
@@ -340,11 +340,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(31, 13);
+            this.label4.Location = new System.Drawing.Point(3, 13);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(55, 32);
+            this.label4.Size = new System.Drawing.Size(112, 32);
             this.label4.TabIndex = 0;
-            this.label4.Text = "VC";
+            this.label4.Text = "VCPA1";
             // 
             // panel5
             // 
@@ -359,11 +359,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(23, 13);
+            this.label3.Location = new System.Drawing.Point(15, 13);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 32);
+            this.label3.Size = new System.Drawing.Size(91, 32);
             this.label3.TabIndex = 0;
-            this.label3.Text = "+B";
+            this.label3.Text = "EPA1";
             // 
             // panel4
             // 
@@ -378,11 +378,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(34, 13);
+            this.label2.Location = new System.Drawing.Point(13, 13);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(54, 32);
+            this.label2.Size = new System.Drawing.Size(91, 32);
             this.label2.TabIndex = 0;
-            this.label2.Text = "KS";
+            this.label2.Text = "VPA1";
             // 
             // btNext
             // 

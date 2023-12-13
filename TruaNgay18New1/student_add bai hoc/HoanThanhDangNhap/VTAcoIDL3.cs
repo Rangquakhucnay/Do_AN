@@ -18,6 +18,12 @@ namespace HoanThanhDangNhap
             btNext.Visible = false;
             SetQuestion("Câu 3: Khi bướm ga mở tín hiệu điện áp IDL gửi về là bao nhiêu ? (Chọn đáp án gần đúng)\r\n"); // Gọi phương thức SetQ
             SetQuestion1("................");
+            exitsetting();
+        }
+
+        void exitsetting()
+        {
+            ControlBox = false;
         }
         private void SetQuestion(string question)
         {

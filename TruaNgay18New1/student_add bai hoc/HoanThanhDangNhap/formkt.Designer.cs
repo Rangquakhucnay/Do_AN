@@ -44,6 +44,7 @@
             this.btVTAtiepdiem = new System.Windows.Forms.Button();
             this.btDaynhiet = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.btExit = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -72,6 +73,7 @@
             this.panel2.Controls.Add(this.btVPAtuyentinh);
             this.panel2.Controls.Add(this.btDelcohall);
             this.panel2.Controls.Add(this.btVTAkoIDL);
+            this.panel2.Controls.Add(this.btExit);
             this.panel2.Controls.Add(this.btMap);
             this.panel2.Controls.Add(this.btVTAtiepdiem);
             this.panel2.Controls.Add(this.btDaynhiet);
@@ -127,6 +129,7 @@
             this.btDelcoquang.TabIndex = 2;
             this.btDelcoquang.Text = "G và Ne Delco Quang";
             this.btDelcoquang.UseVisualStyleBackColor = false;
+            this.btDelcoquang.Click += new System.EventHandler(this.btDelcoquang_Click);
             // 
             // btDelcodientu
             // 
@@ -241,11 +244,24 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(484, 33);
+            this.label1.Location = new System.Drawing.Point(395, 26);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(631, 69);
             this.label1.TabIndex = 0;
             this.label1.Text = "CÁC LOẠI CẢM BIẾN";
+            // 
+            // btExit
+            // 
+            this.btExit.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btExit.ForeColor = System.Drawing.Color.OrangeRed;
+            this.btExit.Location = new System.Drawing.Point(634, 665);
+            this.btExit.Name = "btExit";
+            this.btExit.Size = new System.Drawing.Size(148, 54);
+            this.btExit.TabIndex = 2;
+            this.btExit.Text = "Exit";
+            this.btExit.UseVisualStyleBackColor = false;
+            this.btExit.Click += new System.EventHandler(this.btExit_Click);
             // 
             // formkt
             // 
@@ -281,5 +297,6 @@
         private System.Windows.Forms.Button btDelcohall;
         private System.Windows.Forms.Button btVTAkoIDL;
         private System.Windows.Forms.Button btVTAtiepdiem;
+        private System.Windows.Forms.Button btExit;
     }
 }

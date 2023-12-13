@@ -18,6 +18,12 @@ namespace HoanThanhDangNhap
             btNext.Visible = false;
             SetQuestion("    Câu 1: Đo điện trở cảm biến ở chân THW theo nhiệt độ môi trường\r\n"); // Gọi phương thức SetQ
             SetQuestion1("Bài 7: Cảm Biến Nhiệt Độ\r\n");
+            exitsetting();
+        }
+
+        void exitsetting()
+        {
+            ControlBox = false;
         }
         private void SetQuestion(string question)
         {

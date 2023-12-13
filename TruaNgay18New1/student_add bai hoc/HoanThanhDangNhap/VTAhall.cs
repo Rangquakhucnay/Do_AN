@@ -15,6 +15,12 @@ namespace HoanThanhDangNhap
         public VTAhall()
         {
             InitializeComponent();
+            exitsetting();
+        }
+
+        void exitsetting()
+        {
+            ControlBox = false;
         }
 
         private void btStart_Click(object sender, EventArgs e)
@@ -27,7 +33,7 @@ namespace HoanThanhDangNhap
         private void VTAhall_FormClosed(object sender, FormClosedEventArgs e)
         {
             formkt f = new formkt();
-            this.Hide();
+            this.Close();
             f.ShowDialog();
         }
     }

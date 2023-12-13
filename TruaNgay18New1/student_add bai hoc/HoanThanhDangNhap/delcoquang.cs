@@ -23,5 +23,12 @@ namespace HoanThanhDangNhap
             this.Hide();
             f.ShowDialog();
         }
+
+        private void delcoquang_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            formkt f = new formkt();
+            this.Close();
+            f.ShowDialog();
+        }
     }
 }

@@ -19,6 +19,12 @@ namespace HoanThanhDangNhap
             groupBox2.Visible = false;
             btNext.Visible = false;
             SetQuestion("Câu 1: Xác định các chân của cảm biến (Theo hướng giắc đực).\r\n"); // Gọi phương thức SetQuestion và truyền nội dung câu hỏi
+            exitsetting();
+        }
+
+        void exitsetting()
+        {
+            ControlBox = false;
         }
 
         private void SetQuestion(string question)
