@@ -163,6 +163,36 @@ namespace HoanThanhDangNhap.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap formkt {
+            get {
+                object obj = ResourceManager.GetObject("formkt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap formkt1 {
+            get {
+                object obj = ResourceManager.GetObject("formkt1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap formkt2 {
+            get {
+                object obj = ResourceManager.GetObject("formkt2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Icons8_Ios7_Arrows_Back_512 {
             get {
                 object obj = ResourceManager.GetObject("Icons8-Ios7-Arrows-Back.512", resourceCulture);
@@ -226,6 +256,16 @@ namespace HoanThanhDangNhap.Properties {
         internal static System.Drawing.Bitmap MachFAULT {
             get {
                 object obj = ResourceManager.GetObject("MachFAULT", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nutchonformkt {
+            get {
+                object obj = ResourceManager.GetObject("nutchonformkt", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

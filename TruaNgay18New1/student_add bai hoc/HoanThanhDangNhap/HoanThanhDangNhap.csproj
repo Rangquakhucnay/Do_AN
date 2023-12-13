@@ -816,6 +816,8 @@
     <None Include="Resources\daynhiet.png" />
     <None Include="Resources\cam-bien-luu-luong-khi-nap.jpeg" />
     <None Include="Resources\Screenshot 2023-12-08 153203.png" />
+    <None Include="Resources\formkt.png" />
+    <None Include="Resources\nutchonformkt.png" />
     <Content Include="Resources\test\hinh1.png" />
     <Content Include="Resources\test\hinh10.png" />
     <Content Include="Resources\test\hinh11.png" />
