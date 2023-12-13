@@ -59,6 +59,9 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.SystemColors.Control;
+            this.panel2.BackgroundImage = global::HoanThanhDangNhap.Properties.Resources.formkt2;
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.Controls.Add(this.btVPAhall);
             this.panel2.Controls.Add(this.btVTAhall);
             this.panel2.Controls.Add(this.btTHW);
@@ -80,11 +83,11 @@
             // 
             // btVPAhall
             // 
-            this.btVPAhall.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btVPAhall.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btVPAhall.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btVPAhall.Location = new System.Drawing.Point(375, 413);
+            this.btVPAhall.Location = new System.Drawing.Point(946, 653);
             this.btVPAhall.Name = "btVPAhall";
-            this.btVPAhall.Size = new System.Drawing.Size(289, 41);
+            this.btVPAhall.Size = new System.Drawing.Size(378, 78);
             this.btVPAhall.TabIndex = 2;
             this.btVPAhall.Text = "VPA Hall";
             this.btVPAhall.UseVisualStyleBackColor = false;
@@ -92,11 +95,11 @@
             // 
             // btVTAhall
             // 
-            this.btVTAhall.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btVTAhall.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btVTAhall.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btVTAhall.Location = new System.Drawing.Point(375, 290);
+            this.btVTAhall.Location = new System.Drawing.Point(946, 453);
             this.btVTAhall.Name = "btVTAhall";
-            this.btVTAhall.Size = new System.Drawing.Size(289, 41);
+            this.btVTAhall.Size = new System.Drawing.Size(378, 82);
             this.btVTAhall.TabIndex = 2;
             this.btVTAhall.Text = "VTA Hall";
             this.btVTAhall.UseVisualStyleBackColor = false;
@@ -104,11 +107,11 @@
             // 
             // btTHW
             // 
-            this.btTHW.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btTHW.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btTHW.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btTHW.Location = new System.Drawing.Point(44, 472);
+            this.btTHW.Location = new System.Drawing.Point(103, 653);
             this.btTHW.Name = "btTHW";
-            this.btTHW.Size = new System.Drawing.Size(289, 41);
+            this.btTHW.Size = new System.Drawing.Size(382, 78);
             this.btTHW.TabIndex = 2;
             this.btTHW.Text = "THW";
             this.btTHW.UseVisualStyleBackColor = false;
@@ -116,22 +119,22 @@
             // 
             // btDelcoquang
             // 
-            this.btDelcoquang.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btDelcoquang.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btDelcoquang.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btDelcoquang.Location = new System.Drawing.Point(44, 413);
+            this.btDelcoquang.Location = new System.Drawing.Point(103, 453);
             this.btDelcoquang.Name = "btDelcoquang";
-            this.btDelcoquang.Size = new System.Drawing.Size(289, 41);
+            this.btDelcoquang.Size = new System.Drawing.Size(382, 82);
             this.btDelcoquang.TabIndex = 2;
             this.btDelcoquang.Text = "G và Ne Delco Quang";
             this.btDelcoquang.UseVisualStyleBackColor = false;
             // 
             // btDelcodientu
             // 
-            this.btDelcodientu.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btDelcodientu.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btDelcodientu.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btDelcodientu.Location = new System.Drawing.Point(44, 290);
+            this.btDelcodientu.Location = new System.Drawing.Point(103, 551);
             this.btDelcodientu.Name = "btDelcodientu";
-            this.btDelcodientu.Size = new System.Drawing.Size(289, 41);
+            this.btDelcodientu.Size = new System.Drawing.Size(382, 84);
             this.btDelcodientu.TabIndex = 2;
             this.btDelcodientu.Text = "G và Ne Delco Điện Tử";
             this.btDelcodientu.UseVisualStyleBackColor = false;
@@ -139,11 +142,11 @@
             // 
             // btVTAcoIDL
             // 
-            this.btVTAcoIDL.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btVTAcoIDL.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btVTAcoIDL.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btVTAcoIDL.Location = new System.Drawing.Point(375, 166);
+            this.btVTAcoIDL.Location = new System.Drawing.Point(946, 153);
             this.btVTAcoIDL.Name = "btVTAcoIDL";
-            this.btVTAcoIDL.Size = new System.Drawing.Size(289, 41);
+            this.btVTAcoIDL.Size = new System.Drawing.Size(378, 82);
             this.btVTAcoIDL.TabIndex = 2;
             this.btVTAcoIDL.Text = "VTA Có IDL";
             this.btVTAcoIDL.UseVisualStyleBackColor = false;
@@ -151,11 +154,11 @@
             // 
             // btKarman
             // 
-            this.btKarman.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btKarman.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btKarman.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btKarman.Location = new System.Drawing.Point(44, 166);
+            this.btKarman.Location = new System.Drawing.Point(103, 153);
             this.btKarman.Name = "btKarman";
-            this.btKarman.Size = new System.Drawing.Size(289, 41);
+            this.btKarman.Size = new System.Drawing.Size(382, 82);
             this.btKarman.TabIndex = 2;
             this.btKarman.Text = "Karman Siêu Âm";
             this.btKarman.UseVisualStyleBackColor = false;
@@ -163,11 +166,11 @@
             // 
             // btVPAtuyentinh
             // 
-            this.btVPAtuyentinh.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btVPAtuyentinh.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btVPAtuyentinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btVPAtuyentinh.Location = new System.Drawing.Point(375, 354);
+            this.btVPAtuyentinh.Location = new System.Drawing.Point(946, 551);
             this.btVPAtuyentinh.Name = "btVPAtuyentinh";
-            this.btVPAtuyentinh.Size = new System.Drawing.Size(289, 41);
+            this.btVPAtuyentinh.Size = new System.Drawing.Size(378, 84);
             this.btVPAtuyentinh.TabIndex = 2;
             this.btVPAtuyentinh.Text = "VPA Tuyến Tính ";
             this.btVPAtuyentinh.UseVisualStyleBackColor = false;
@@ -175,11 +178,11 @@
             // 
             // btDelcohall
             // 
-            this.btDelcohall.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btDelcohall.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btDelcohall.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btDelcohall.Location = new System.Drawing.Point(44, 354);
+            this.btDelcohall.Location = new System.Drawing.Point(103, 342);
             this.btDelcohall.Name = "btDelcohall";
-            this.btDelcohall.Size = new System.Drawing.Size(289, 41);
+            this.btDelcohall.Size = new System.Drawing.Size(382, 93);
             this.btDelcohall.TabIndex = 2;
             this.btDelcohall.Text = "G và Ne Delco Hall";
             this.btDelcohall.UseVisualStyleBackColor = false;
@@ -187,11 +190,11 @@
             // 
             // btVTAkoIDL
             // 
-            this.btVTAkoIDL.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btVTAkoIDL.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btVTAkoIDL.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btVTAkoIDL.Location = new System.Drawing.Point(375, 231);
+            this.btVTAkoIDL.Location = new System.Drawing.Point(946, 342);
             this.btVTAkoIDL.Name = "btVTAkoIDL";
-            this.btVTAkoIDL.Size = new System.Drawing.Size(289, 41);
+            this.btVTAkoIDL.Size = new System.Drawing.Size(378, 93);
             this.btVTAkoIDL.TabIndex = 2;
             this.btVTAkoIDL.Text = "VTA Không Có IDL";
             this.btVTAkoIDL.UseVisualStyleBackColor = false;
@@ -199,11 +202,11 @@
             // 
             // btMap
             // 
-            this.btMap.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btMap.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btMap.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btMap.Location = new System.Drawing.Point(44, 231);
+            this.btMap.Location = new System.Drawing.Point(521, 406);
             this.btMap.Name = "btMap";
-            this.btMap.Size = new System.Drawing.Size(289, 41);
+            this.btMap.Size = new System.Drawing.Size(377, 83);
             this.btMap.TabIndex = 2;
             this.btMap.Text = "Map";
             this.btMap.UseVisualStyleBackColor = false;
@@ -211,11 +214,11 @@
             // 
             // btVTAtiepdiem
             // 
-            this.btVTAtiepdiem.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btVTAtiepdiem.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btVTAtiepdiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btVTAtiepdiem.Location = new System.Drawing.Point(375, 107);
+            this.btVTAtiepdiem.Location = new System.Drawing.Point(946, 251);
             this.btVTAtiepdiem.Name = "btVTAtiepdiem";
-            this.btVTAtiepdiem.Size = new System.Drawing.Size(289, 41);
+            this.btVTAtiepdiem.Size = new System.Drawing.Size(378, 83);
             this.btVTAtiepdiem.TabIndex = 2;
             this.btVTAtiepdiem.Text = "VTA Tiếp Điểm";
             this.btVTAtiepdiem.UseVisualStyleBackColor = false;
@@ -223,11 +226,11 @@
             // 
             // btDaynhiet
             // 
-            this.btDaynhiet.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.btDaynhiet.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btDaynhiet.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btDaynhiet.Location = new System.Drawing.Point(44, 107);
+            this.btDaynhiet.Location = new System.Drawing.Point(103, 251);
             this.btDaynhiet.Name = "btDaynhiet";
-            this.btDaynhiet.Size = new System.Drawing.Size(289, 41);
+            this.btDaynhiet.Size = new System.Drawing.Size(382, 83);
             this.btDaynhiet.TabIndex = 2;
             this.btDaynhiet.Text = "Cảm Biến Dây Nhiệt";
             this.btDaynhiet.UseVisualStyleBackColor = false;
@@ -236,11 +239,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.Control;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(561, 20);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(484, 33);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(302, 32);
+            this.label1.Size = new System.Drawing.Size(631, 69);
             this.label1.TabIndex = 0;
             this.label1.Text = "CÁC LOẠI CẢM BIẾN";
             // 
