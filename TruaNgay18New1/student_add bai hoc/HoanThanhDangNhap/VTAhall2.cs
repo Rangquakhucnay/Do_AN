@@ -16,7 +16,7 @@ namespace HoanThanhDangNhap
         {
             InitializeComponent();
             SetQuestion("Câu 2: Đo điện áp tín hiệu VTA2 khi cánh bướm ga mở hết.\r\n");
-            SetQuestion1("...........................");
+            SetQuestion1("Bài 11: Cảm biến vị trí bướm ga kiểu phần tử Hall");
             exitsetting();
         }
 

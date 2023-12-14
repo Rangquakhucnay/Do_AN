@@ -63,6 +63,16 @@ namespace HoanThanhDangNhap.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _4bec8af5784caaf4779c842f4047eba9 {
+            get {
+                object obj = ResourceManager.GetObject("4bec8af5784caaf4779c842f4047eba9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap aaa {
             get {
                 object obj = ResourceManager.GetObject("aaa", resourceCulture);
@@ -186,6 +196,16 @@ namespace HoanThanhDangNhap.Properties {
         internal static System.Drawing.Bitmap formkt2 {
             get {
                 object obj = ResourceManager.GetObject("formkt2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hinhformkt {
+            get {
+                object obj = ResourceManager.GetObject("hinhformkt", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

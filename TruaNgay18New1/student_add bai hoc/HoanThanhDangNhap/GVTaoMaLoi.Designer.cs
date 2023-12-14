@@ -55,7 +55,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::HoanThanhDangNhap.Properties.Resources.MachFAULT;
+            this.pictureBox1.Image = global::HoanThanhDangNhap.Properties.Resources._4bec8af5784caaf4779c842f4047eba9;
             this.pictureBox1.Location = new System.Drawing.Point(38, 1);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(814, 815);
@@ -65,16 +65,16 @@
             // 
             // txtMaLoi
             // 
-            this.txtMaLoi.Font = new System.Drawing.Font("Quicksand", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMaLoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMaLoi.Location = new System.Drawing.Point(323, 22);
             this.txtMaLoi.Name = "txtMaLoi";
-            this.txtMaLoi.Size = new System.Drawing.Size(90, 41);
+            this.txtMaLoi.Size = new System.Drawing.Size(90, 38);
             this.txtMaLoi.TabIndex = 1;
             this.txtMaLoi.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // NutTaoLoi
             // 
-            this.NutTaoLoi.Font = new System.Drawing.Font("Quicksand", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NutTaoLoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NutTaoLoi.Location = new System.Drawing.Point(60, 101);
             this.NutTaoLoi.Name = "NutTaoLoi";
             this.NutTaoLoi.Size = new System.Drawing.Size(156, 56);
@@ -85,7 +85,7 @@
             // 
             // NutXoaLoi
             // 
-            this.NutXoaLoi.Font = new System.Drawing.Font("Quicksand", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NutXoaLoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NutXoaLoi.Location = new System.Drawing.Point(287, 101);
             this.NutXoaLoi.Name = "NutXoaLoi";
             this.NutXoaLoi.Size = new System.Drawing.Size(156, 56);
@@ -109,11 +109,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Quicksand", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(65, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(214, 49);
+            this.label1.Size = new System.Drawing.Size(201, 38);
             this.label1.TabIndex = 4;
             this.label1.Text = "Nhập mã lỗi";
             // 
@@ -136,7 +136,7 @@
             // 
             // NutKetNoi
             // 
-            this.NutKetNoi.Font = new System.Drawing.Font("Quicksand", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NutKetNoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NutKetNoi.Location = new System.Drawing.Point(149, 260);
             this.NutKetNoi.Name = "NutKetNoi";
             this.NutKetNoi.Size = new System.Drawing.Size(208, 57);
@@ -148,40 +148,40 @@
             // listrate
             // 
             this.listrate.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.listrate.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listrate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listrate.FormattingEnabled = true;
             this.listrate.Location = new System.Drawing.Point(244, 198);
             this.listrate.Name = "listrate";
-            this.listrate.Size = new System.Drawing.Size(191, 38);
+            this.listrate.Size = new System.Drawing.Size(191, 33);
             this.listrate.TabIndex = 7;
             // 
             // listcom
             // 
             this.listcom.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.listcom.Font = new System.Drawing.Font("Quicksand", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listcom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listcom.FormattingEnabled = true;
             this.listcom.Location = new System.Drawing.Point(244, 126);
             this.listcom.Name = "listcom";
-            this.listcom.Size = new System.Drawing.Size(191, 38);
+            this.listcom.Size = new System.Drawing.Size(191, 33);
             this.listcom.TabIndex = 6;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Quicksand", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(63, 195);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(155, 41);
+            this.label7.Size = new System.Drawing.Size(148, 32);
             this.label7.TabIndex = 5;
             this.label7.Text = "Baud Rate";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Quicksand", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(63, 123);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(156, 41);
+            this.label6.Size = new System.Drawing.Size(154, 32);
             this.label6.TabIndex = 4;
             this.label6.Text = "Cổng COM";
             // 
@@ -198,37 +198,37 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Quicksand SemiBold", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(9, 58);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(321, 41);
+            this.label5.Size = new System.Drawing.Size(319, 32);
             this.label5.TabIndex = 3;
             this.label5.Text = "phần mềm với mô hình";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Quicksand SemiBold", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(60, 16);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(412, 41);
+            this.label4.Size = new System.Drawing.Size(414, 32);
             this.label4.TabIndex = 2;
             this.label4.Text = "Trước khi bắt đầu, hãy kết nối";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Quicksand", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(23, 17);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(18, 41);
+            this.label3.Size = new System.Drawing.Size(14, 32);
             this.label3.TabIndex = 0;
             this.label3.Text = "\r\n";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // NutThoat
             // 
-            this.NutThoat.Font = new System.Drawing.Font("Quicksand", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NutThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NutThoat.Location = new System.Drawing.Point(1059, 672);
             this.NutThoat.Name = "NutThoat";
             this.NutThoat.Size = new System.Drawing.Size(156, 71);

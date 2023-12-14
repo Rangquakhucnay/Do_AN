@@ -15,6 +15,12 @@ namespace HoanThanhDangNhap
         public daynhiet1()
         {
             InitializeComponent();
+            exitsetting();
+        }
+
+        void exitsetting()
+        {
+            ControlBox = false;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

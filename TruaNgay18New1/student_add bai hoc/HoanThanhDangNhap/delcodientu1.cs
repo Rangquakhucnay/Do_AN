@@ -19,10 +19,22 @@ namespace HoanThanhDangNhap
             InitializeComponent();
             btNext.Visible = false;
             SetQuestion("Câu 1: Xác định điện trở cảm biến G và Ne. Chọn đáp án đúng nhất.\r\n"); // Gọi phương thức SetQuestion và truyền nội dung câu hỏi
+            SetQuestion1("Bài 4: Cảm Biến G và Cảm Biến Ne\r\nCảm biến điện từ (Bố trí trong bộ chia điện)\r\n");
+            exitsetting();
         }
+
+        void exitsetting()
+        {
+            ControlBox = false;
+        }
+
         private void SetQuestion(string question)
         {
             lbCauhoi.Text = question; // Đặt nội dung câu hỏi cho Label
+        }
+        private void SetQuestion1(string question)
+        {
+            label1.Text = question; // Đặt nội dung câu hỏi cho Label
         }
         private void delcodientu1_FormClosed(object sender, FormClosedEventArgs e)
         {

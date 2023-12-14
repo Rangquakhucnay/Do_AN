@@ -17,8 +17,8 @@ namespace HoanThanhDangNhap
             
             InitializeComponent();
             //  btNext.Visible = false;
-            SetQuestion("Câu 4: Kiểm tra tín hiệu VG khi kết nối cảm biến.\r\n");
-            SetQuestion1("...........................");
+            SetQuestion("Câu 2: Điện áp tín hiệu chân PIM theo áp suất môi trường"); // Gọi phương thức SetQuestion và truyền nội dung câu hỏi
+            SetQuestion1("Bài 3: Cảm Biến Áp Suất Không Khí Nạp\r\n");
             exitsetting();
         }
 
@@ -26,6 +26,7 @@ namespace HoanThanhDangNhap
         {
             ControlBox = false;
         }
+
         private void SetQuestion(string question)
         {
             lbCauhoi.Text = question; // Đặt nội dung câu hỏi cho Label

@@ -16,11 +16,23 @@ namespace HoanThanhDangNhap
         {
             InitializeComponent();
             btNext.Visible = false;
-            SetQuestion("   Câu 4: Kiểm tra tín hiệu KS khi thổi không khí qua bộ đo gió.\r\n"); // Gọi phương thức SetQuestion và truyền nội dung câu hỏi
+            SetQuestion("Câu 5: Kiểm tra tín hiệu KS khi thổi không khí qua bộ đo gió.\r\n"); // Gọi phương thức SetQuestion và truyền nội dung câu hỏi
+            SetQuestion1("Bài 2: Cảm Biến Lưu Lượng Không Khí Nạp Kiểu Karman siêu âm\r\n");
+            exitsetting();
         }
+
+        void exitsetting()
+        {
+            ControlBox = false;
+        }
+
         private void SetQuestion(string question)
         {
             lbCauhoi.Text = question; // Đặt nội dung câu hỏi cho Label
+        }
+        private void SetQuestion1(string question)
+        {
+            label1.Text = question; // Đặt nội dung câu hỏi cho Label
         }
 
         private void karman5_FormClosed(object sender, FormClosedEventArgs e)

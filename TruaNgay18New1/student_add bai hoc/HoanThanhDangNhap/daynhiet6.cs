@@ -16,11 +16,23 @@ namespace HoanThanhDangNhap
         {
             InitializeComponent();
           //  btNext.Visible = false;
-            SetQuestion("Câu 2: Điện áp tín hiệu chân PIM theo áp suất môi trường\r\n");
+            SetQuestion("Câu 5: Kiểm tra tín hiệu VG khi kết nối cảm biến.\n\r");
+            SetQuestion1("Bài 1: Cảm Biến Lưu Lượng Không Khí Nạp Kiểu dây nhiệt\r\n");
+            exitsetting();
         }
+
+        void exitsetting()
+        {
+            ControlBox = false;
+        }
+
         private void SetQuestion(string question)
         {
             lbCauhoi.Text = question; // Đặt nội dung câu hỏi cho Label
+        }
+        private void SetQuestion1(string question)
+        {
+            label1.Text = question; // Đặt nội dung câu hỏi cho Label
         }
         private void daynhiet6_FormClosed(object sender, FormClosedEventArgs e)
         {

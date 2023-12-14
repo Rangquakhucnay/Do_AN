@@ -17,7 +17,7 @@ namespace HoanThanhDangNhap
             InitializeComponent();
             btNext.Visible = false;
             SetQuestion("Câu 3: Khi ở chế độ tải trung bình tín hiệu cảm biến gửi về là ? (Chọn đáp án đúng nhất)\r\n"); // Gọi phương thức SetQ
-            SetQuestion1("................");
+            SetQuestion1("Bài 8: Cảm biến vị trí bướm ga kiểu tiếp điểm");
             exitsetting();
         }
 

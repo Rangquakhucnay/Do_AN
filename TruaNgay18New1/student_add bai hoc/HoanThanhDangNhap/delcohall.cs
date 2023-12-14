@@ -15,6 +15,12 @@ namespace HoanThanhDangNhap
         public delcohall()
         {
             InitializeComponent();
+            exitsetting();
+        }
+
+        void exitsetting()
+        {
+            ControlBox = false;
         }
 
         private void btStart_Click(object sender, EventArgs e)

@@ -139,6 +139,9 @@
   <data name="Screenshot 2023-12-08 153203" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot 2023-12-08 153203.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="hinhformkt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hinhformkt.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Picture111" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Picture111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -211,6 +214,9 @@
   <data name="daynhiet" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\daynhiet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="formkt2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formkt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="nutchonformkt" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nutchonformkt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -220,7 +226,7 @@
   <data name="bg3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="formkt2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\formkt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="4bec8af5784caaf4779c842f4047eba9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4bec8af5784caaf4779c842f4047eba9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

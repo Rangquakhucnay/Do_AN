@@ -16,10 +16,26 @@ namespace HoanThanhDangNhap
         {
             InitializeComponent();
             btNext.Visible = false;
-            
+
+            SetQuestion("Câu 3: Đo điện trở cảm biến ở chân THA theo nhiệt độ môi trường.\r\n"); // Gọi phương thức SetQuestion và truyền nội dung câu hỏi
+            SetQuestion1("Bài 1: Cảm Biến Lưu Lượng Không Khí Nạp Kiểu dây nhiệt\r\n");
+            exitsetting();
         }
 
-       
+        void exitsetting()
+        {
+            ControlBox = false;
+        }
+
+        private void SetQuestion(string question)
+        {
+            lbCauhoi.Text = question; // Đặt nội dung câu hỏi cho Label
+        }
+        private void SetQuestion1(string question)
+        {
+            label1.Text = question; // Đặt nội dung câu hỏi cho Label
+        }
+
 
         private void checkedListBox1_ItemCheck_1(object sender, ItemCheckEventArgs e)
         {

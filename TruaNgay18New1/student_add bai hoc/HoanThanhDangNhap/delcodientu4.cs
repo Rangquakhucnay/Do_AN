@@ -16,12 +16,23 @@ namespace HoanThanhDangNhap
         {
             InitializeComponent();
             btNext.Visible = false;
-            SetQuestion(" Câu 4: Sức điện động mà cảm biến sinh ra đạt lớn nhất khi\r\n"); // Gọi phương thức SetQ
+            SetQuestion("Câu 4: Sức điện động mà cảm biến sinh ra đạt lớn nhất khi\r\n"); // Gọi phương thức SetQuestion và truyền nội dung câu hỏi
+            SetQuestion1("Bài 4: Cảm Biến G và Cảm Biến Ne\r\nCảm biến điện từ (Bố trí trong bộ chia điện)\r\n");
+            exitsetting();
+        }
+
+        void exitsetting()
+        {
+            ControlBox = false;
         }
 
         private void SetQuestion(string question)
         {
             lbCauhoi.Text = question; // Đặt nội dung câu hỏi cho Label
+        }
+        private void SetQuestion1(string question)
+        {
+            label1.Text = question; // Đặt nội dung câu hỏi cho Label
         }
         private void delcodientu4_FormClosed(object sender, FormClosedEventArgs e)
         {

@@ -17,7 +17,7 @@ namespace HoanThanhDangNhap
             InitializeComponent();
             btNext.Visible = false;
             SetQuestion("Câu 3: Khi bướm ga mở tín hiệu điện áp IDL gửi về là bao nhiêu ? (Chọn đáp án gần đúng)\r\n"); // Gọi phương thức SetQ
-            SetQuestion1("................");
+            SetQuestion1("Bài 9: Cảm biến vị trí bướm ga kiểu tuyến tính có tiếp điểm IDL");
             exitsetting();
         }
 

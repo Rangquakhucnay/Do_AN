@@ -15,6 +15,19 @@ namespace HoanThanhDangNhap
         public daynhiet2()
         {
             InitializeComponent();
+            exitsetting();
+            SetQuestion1("Bài 1: Cảm Biến Lưu Lượng Không Khí Nạp Kiểu dây nhiệt\r\n");
+        }
+
+       
+        private void SetQuestion1(string question)
+        {
+            label1.Text = question; // Đặt nội dung câu hỏi cho Label
+        }
+
+        void exitsetting()
+        {
+            ControlBox = false;
         }
 
         private void button3_Click(object sender, EventArgs e)

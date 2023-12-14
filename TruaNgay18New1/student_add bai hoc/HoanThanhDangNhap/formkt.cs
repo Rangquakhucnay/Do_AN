@@ -19,32 +19,18 @@ namespace HoanThanhDangNhap
 
         
 
-        private void btDaynhiet_Click(object sender, EventArgs e)
-        {
-            daynhiet1 k1 = new daynhiet1();
-            this.Hide();
-            k1.ShowDialog();
-        }
+        
 
-        private void btKarman_Click(object sender, EventArgs e)
-        {
-            karman f = new karman();
-            this.Hide();
-            f.ShowDialog();
-        }
+       
 
         private void btMap_Click(object sender, EventArgs e)
         {
-            map f = new map();
-            this.Hide( );
-            f.ShowDialog();
+           
         }
 
         private void btDelcodientu_Click(object sender, EventArgs e)
         {
-            delcodientu f = new delcodientu();
-              this.Hide();
-            f.ShowDialog();
+            
         }
 
         private void btDelcohall_Click(object sender, EventArgs e)
@@ -97,10 +83,7 @@ namespace HoanThanhDangNhap
             f.ShowDialog();
         }
 
-        private void formkt_FormClosed(object sender, FormClosedEventArgs e)
-        {
-           
-        }
+       
 
         private void btVPAhall_Click(object sender, EventArgs e)
         {
@@ -119,6 +102,34 @@ namespace HoanThanhDangNhap
             delcoquang delcoquang = new delcoquang();
             this.Hide();
             delcoquang.ShowDialog();
+        }
+
+        private void lbKarmanSiêuÂm_Click(object sender, EventArgs e)
+        {
+            karman f = new karman();
+            this.Hide();
+            f.ShowDialog();
+        }
+
+        private void lbCảmBiếnDâyNhiệt_Click(object sender, EventArgs e)
+        {
+            daynhiet1 k1 = new daynhiet1();
+            this.Hide();
+            k1.ShowDialog();
+        }
+
+        private void lbMap_Click(object sender, EventArgs e)
+        {
+            map f = new map();
+            this.Hide();
+            f.ShowDialog();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            delcodientu f = new delcodientu();
+            this.Hide();
+            f.ShowDialog();
         }
     }
     }

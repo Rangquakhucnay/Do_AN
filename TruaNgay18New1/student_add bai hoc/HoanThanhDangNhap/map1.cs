@@ -18,7 +18,8 @@ namespace HoanThanhDangNhap
             InitializeComponent();
             groupBox2.Visible = false;
             btNext.Visible = false;
-            SetQuestion("Câu 1: Xác định các chân của cảm biến (Theo hướng giắc đực).\r\n"); // Gọi phương thức SetQuestion và truyền nội dung câu hỏi
+            SetQuestion("Câu 1: Xác định các chân của cảm biến (Theo hướng giắc đực)\r\n"); // Gọi phương thức SetQuestion và truyền nội dung câu hỏi
+            SetQuestion1("Bài 3: Cảm Biến Áp Suất Không Khí Nạp\r\n");
             exitsetting();
         }
 
@@ -30,6 +31,10 @@ namespace HoanThanhDangNhap
         private void SetQuestion(string question)
         {
             lbCauhoi.Text = question; // Đặt nội dung câu hỏi cho Label
+        }
+        private void SetQuestion1(string question)
+        {
+            label1.Text = question; // Đặt nội dung câu hỏi cho Label
         }
         private void map1_FormClosed(object sender, FormClosedEventArgs e)
         {

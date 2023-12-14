@@ -17,7 +17,7 @@ namespace HoanThanhDangNhap
             InitializeComponent();
             //  btNext.Visible = false;
             SetQuestion("Câu 3: Đo điện áp tín hiệu VTA khi cánh bướm ga mở hết.\r\n");
-            SetQuestion1("...........................");
+            SetQuestion1("Bài 10: Cảm biến vị trí bướm ga kiểu tuyến tính không có tiếp điểm IDL");
             exitsetting();
         }
 

@@ -17,8 +17,8 @@ namespace HoanThanhDangNhap
         {
             InitializeComponent();
             btNext.Visible = false;
-            SetQuestion("   Câu 1: Đo điện trở cảm biến ở chân THW theo nhiệt độ môi trường"); // Gọi phương thức SetQ
-            SetQuestion1("Bài 6: Cảm Biến G và Cảm Biến Ne\r\nCảm biến quang (Bố trí trong bộ chia điện)\r\n");
+            SetQuestion("   Câu 2: Rãnh to nhất của cảm biến G dùng để xác định vị trí: "); // Gọi phương thức SetQ
+            SetQuestion1("Bài 6: Cảm Biến G và Cảm Biến Ne Cảm biến quang (Bố trí trong bộ chia điện)\r\n");
         }
         private void SetQuestion(string question)
         {

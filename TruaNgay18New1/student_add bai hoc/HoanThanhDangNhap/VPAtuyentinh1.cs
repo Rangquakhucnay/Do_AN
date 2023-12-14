@@ -18,7 +18,7 @@ namespace HoanThanhDangNhap
             groupBox2.Visible = false;
             btNext.Visible = false;
             SetQuestion("Câu 1: Xác định các chân của cảm biến (Theo hướng giắc đực)?\r\n"); // Gọi phương thức SetQuestion và truyền nội dung câu hỏi
-            SetQuestion1(".............."); // Gọi phương thức SetQuestion và truyền nội dung câu hỏi
+            SetQuestion1("Bài 12: cảm biến bàn đạp ga kiểu tuyến tính"); // Gọi phương thức SetQuestion và truyền nội dung câu hỏi
 
             exitsetting();
         }

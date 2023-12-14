@@ -17,17 +17,26 @@ namespace HoanThanhDangNhap
             InitializeComponent();
             btNext.Visible = false;
             SetQuestion("Câu 1: Xác định tín hiệu đầu ra cảm biến G và Ne?"); // Gọi phương thức SetQ
-            SetQuestion1("Bài 6: Cảm Biến G và Cảm Biến Ne\r\nCảm biến quang (Bố trí trong bộ chia điện)\r\n");
+            SetQuestion1("Bài 5: Cảm Biến G và Cảm Biến Ne Cảm biến Hall (Bố trí trong bộ chia điện)\r\n");
+            
+            exitsetting();
         }
+
+        void exitsetting()
+        {
+            ControlBox = false;
+        }
+
         private void SetQuestion(string question)
         {
             lbCauhoi.Text = question; // Đặt nội dung câu hỏi cho Label
-
         }
         private void SetQuestion1(string question)
         {
             label1.Text = question; // Đặt nội dung câu hỏi cho Label
         }
+    
+        
         private void delcohall1_FormClosed(object sender, FormClosedEventArgs e)
         {
             formkt f = new formkt();

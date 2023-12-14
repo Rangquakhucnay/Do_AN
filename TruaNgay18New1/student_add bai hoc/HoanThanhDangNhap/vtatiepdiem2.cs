@@ -16,8 +16,8 @@ namespace HoanThanhDangNhap
         {
             InitializeComponent();
             btNext.Visible = false;
-            SetQuestion("Câu 2: Tín hiệu điện áp cực VTA khi ở chế độ cầm chừng là ?\r\n"); // Gọi phương thức SetQ
-            SetQuestion1("................");
+            SetQuestion("   Câu 2: Khi ở tốc độ cầm chừng tín hiệu cảm biến gửi về là ? (Chọn đáp án đúng nhất)\r\n"); // Gọi phương thức SetQ
+            SetQuestion1("Bài 8: Cảm biến vị trí bướm ga kiểu tiếp điểm");
             exitsetting();
         }
 
